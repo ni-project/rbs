@@ -64,6 +64,5 @@ $content_page = $_GET['name'];
 
 <script src="<? echo $path; ?>/scripts/bootstrap/bootstrap.js"></script>
 
-
 </body>
 </html>
