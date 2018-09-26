@@ -413,9 +413,13 @@
         </div>
     </div>
 
+    <!-- -->
 
+    <div class="full-width" style="margin-top: 0; text-align: center;">
 
+        <img src="<? echo $path; ?>/images/tariff/img/tariff-monitor.png" alt="" draggable="false">
 
+    </div>
 
 
 
