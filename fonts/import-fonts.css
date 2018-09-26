@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Circe-Regular';
+    src: url('circe-regular/circe_regular.woff');
+    src: local('☺'), url('circe-regular/circe_regular.woff') format('woff'), url('circe-regular/circe_regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Circe-Light';
+    src: url('circe-light/circe_light.woff');
+    src: local('☺'), url('circe-light/circe_light.woff') format('woff'), url('circe-light/circe_light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

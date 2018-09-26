@@ -1,0 +1,40 @@
+
+@media screen and (max-width: 1600px) {
+
+    .max-width { max-width: 1200px; }
+
+    /**/
+
+
+
+}
+
+@media screen and (max-width: 1250px) {
+
+    .max-width { max-width: 920px; }
+
+    /**/
+
+    .fac-slider, .choose-fac-slider { width: 900px; }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .max-width { max-width: 700px; }
+
+    /**/
+
+
+
+}
+
+@media screen and (max-width: 760px) {
+
+    .max-width { width: 100%; }
+
+    /**/
+
+
+
+}

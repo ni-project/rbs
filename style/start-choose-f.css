@@ -1,0 +1,79 @@
+
+
+
+
+.choose-fac-slider { display: block; width: 1200px; margin: 0 auto; position: relative; }
+
+.choose-fac-slider .flex-viewport { padding-bottom: 36px; }
+
+/* flex-style */
+.choose-fac-slider .slides { margin: 0; padding: 0; list-style: none; }
+
+.choose-fac-slider .slides li {
+    -webkit-backface-visibility: hidden;
+    display: none;
+}
+/**/
+.choose-fac-slider .flex-direction-nav { display: block; width: 100%; height: 100%; margin: 0; padding: 0; }
+
+.choose-fac-slider .flex-direction-nav li { display: block; width: 100%; height: 100%; }
+
+.choose-fac-slider .flex-direction-nav li a {
+    display: block;
+    width: 19px;
+    height: 34px;
+    margin-top: -17px;
+    background: #ff0000;
+    position: absolute;
+    top: 50%;
+    opacity: 0.5;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.choose-fac-slider .flex-direction-nav li a:hover { opacity: 1; }
+
+.choose-fac-slider .flex-direction-nav li a.flex-prev { background: url('../images/start-reviews/arrow-left.png') no-repeat; left: -40px; }
+.choose-fac-slider .flex-direction-nav li a.flex-prev:hover { background: url('../images/start-reviews/arrow-left-hover.png') no-repeat; }
+
+.choose-fac-slider .flex-direction-nav li a.flex-next { background: url('../images/start-reviews/arrow-right.png') no-repeat; right: -40px; }
+.choose-fac-slider .flex-direction-nav li a.flex-next:hover { background: url('../images/start-reviews/arrow-right-hover.png') no-repeat; }
+
+.choose-fac-slider .flex-direction-nav li a.flex-disabled { opacity: 0; visibility: hidden; }
+
+/* /flex-style/ */
+
+.item-fac-slider { display: inline-block; vertical-align: middle; width: 180px; padding: 40px 0 20px 0; background: #ffffff; border-radius: 8px; font-family: 'Circe-Regular', sans-serif; font-size: 20px; color: #3B3B3B; text-decoration: none !important; text-align: center; box-shadow: 0 20px 20px rgba(20, 20, 20, 0.6); }
+
+/**/
+
+.icon-default { display: table; width: 100%; height: 100%; z-index: 1; opacity: 1; visibility: visible; }
+
+.icon-action { display: table; width: 100%; height: 100%; z-index: 1; opacity: 0; visibility: hidden; }
+
+.item-fac-slider:hover .icon-default { opacity: 0; visibility: hidden; }
+.item-fac-slider:hover .icon-action { opacity: 1; visibility: visible; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

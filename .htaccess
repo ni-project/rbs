@@ -1,0 +1,22 @@
+
+# Заголовок Expires
+#<IfModule mod_expires.c>
+#        ExpiresActive On
+#        ExpiresDefault "access plus 1 minutes"
+#</IfModule>
+
+AddDefaultCharset utf-8
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+
+#RewriteRule ^index.php/?p=([-a-zA-Z0-9_]+)? $1/ [L]
+#RewriteRule ^([a-z]+)/([a-z]+)/$ index.php?p=$1&rate=$2 [L]
+RewriteRule ^([a-z]+)/$ index.php/?page=$1 [L]
+RewriteRule ^([a-z]+)$ index.php/?page=$1 [L]
+RewriteRule ^([a-z]+)/([a-z0-9]+)/$ index.php/?page=$1&name=$2 [L]
+RewriteRule ^([a-z]+)/([a-z0-9]+)$ index.php/?page=$1&name=$2 [L]
+#RewriteRule ^([a-z]+)$ index.php/?p=$1 [L]

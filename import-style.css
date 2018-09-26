@@ -1,0 +1,25 @@
+/* MAIN */
+
+    @import url("fonts/import-fonts.css");
+    @import url("style/management.css");
+    @import url("style/top-bar.css");
+
+/*/MAIN/*/
+
+/* SECTION */
+
+    @import url("style/start-background.css");
+    @import url("style/start-review.css");
+    @import url("style/start-learn.css");
+    @import url("style/start-choose-f.css");
+    @import url("style/start-learn-media-container.css");
+
+    @import url("style/tariff.css");
+
+/*/SECTION/*/
+
+/* FOOTER */
+
+    /*@import url("style/contacts.css");*/
+
+/*/FOOTER/*/

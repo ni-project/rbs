@@ -1,0 +1,29 @@
+
+
+
+
+
+
+
+.btn-learn { display: inline-block; vertical-align: top; width: 270px; margin-right: 20px; padding: 16px 0; font-size: 24px; border-radius: 10px 10px 0 0; text-align: center; cursor: pointer; position: relative; z-index: 2; background: #c4c4c4; color: #3E3E3E; }
+.btn-learn.choose { z-index: 3; background: #f4f4f4; color: #004A74; }
+
+
+.learn-block { display: none; padding: 40px; background: #ffffff; box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); position: relative; z-index: 2; }
+.learn-block.choose { display: block; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
