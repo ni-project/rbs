@@ -1,16 +1,40 @@
 
-<div class="full-width" style="background: #202020; padding: 50px 0 50px 0; position: relative;">
+    <div class="full-width" style="background: #202020; padding: 50px 0 50px 0; position: relative;">
 
-        <div style="display: block; width: 1200px; margin: 0 auto; position: relative;">
+        <div class="max-width">
 
-            <img src="<? echo $path; ?>/images/footer/logo-footer.png" alt="" draggable="false">
+            <div style="display: inline-block; vertical-align: top; float: left;">
+
+                <div style="display: inline-block; vertical-align: top;">
+
+                    <img src="<? echo $path; ?>/images/footer/logo-footer.png" alt="" draggable="false">
+
+                </div>
+
+                <div style="display: inline-block; vertical-align: top; margin-left: 120px; padding-top: 20px;">
+
+                    <img src="<? echo $path; ?>/images/footer/mailto-icon.png" alt="" draggable="false"><a href="mailto:sales@rbs-24.ru" style="margin-left: 12px; font-size: 16px; color: #ffffff;">sales@rbs-24.ru</a>
+
+                </div>
+
+            </div>
 
             <div style="display: inline-block; vertical-align: top; float: right;">
 
-                <div style="display: inline-block; vertical-align: top; width: 216px;">
-                    <div class="full-width" style="margin: 10px 0;">
-                        <a href="<? echo $path; ?>/legal/1" style="font-family: 'Circe-Light', sans-serif; font-size: 20px; color: #ffffff;">Правовая информация</a>
-                    </div>
+                <div style="display: inline-block; vertical-align: top; margin-right: 80px; padding-top: 14px;">
+                    <a href="<? echo $path; ?>/legal/1" style="font-family: 'Circe-Light', sans-serif; font-size: 20px; color: #ffffff;">Правовая информация</a>
+                </div>
+
+                <div style="display: inline-block; vertical-align: top; padding-top: 10px;">
+                    <a href="http://facebook.com" target="_blank" style="margin-left: 8px; font-family: 'Circe-Light', sans-serif; font-size: 20px; color: #ffffff; text-decoration: none !important;">
+                        <img src="<? echo $path; ?>/images/footer/facebook.png" alt="" draggable="false">
+                    </a>
+                    <a href="http://youtube.com" target="_blank" style="margin-left: 8px; font-family: 'Circe-Light', sans-serif; font-size: 20px; color: #ffffff; text-decoration: none !important;">
+                        <img src="<? echo $path; ?>/images/footer/youtube.png" alt="" draggable="false">
+                    </a>
+                    <a href="http://instagram.com" target="_blank" style="margin-left: 8px; font-family: 'Circe-Light', sans-serif; font-size: 20px; color: #ffffff; text-decoration: none !important;">
+                        <img src="<? echo $path; ?>/images/footer/instagram.png" alt="" draggable="false">
+                    </a>
                 </div>
 
             </div>
@@ -19,11 +43,11 @@
 
         </div>
 
-</div>
+    </div>
 
-    <div class="full-width" style="background: #000000; padding: 30px 0 30px 0; position: relative;">
+    <div class="full-width" style="background: #000000; padding: 20px 0 20px 0; position: relative;">
 
-        <div style="display: block; width: 1200px; margin: 0 auto; font-size: 16px; color: #ffffff;">
+        <div class="max-width" style="font-size: 16px; color: #ffffff;">
 
             <span style="position: relative; left:0; top: -2px;">&copy;</span> <?php date_default_timezone_set('Asia/Yekaterinburg'); echo date('Y'); ?> Бизнес-школа недвижимости
 
