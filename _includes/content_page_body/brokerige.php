@@ -309,10 +309,10 @@
 
     <!-- -->
 
-    <div class="full-width" style="font-size: 22px; color: #000000;">
-        <div class="max-width">
+    <div class="full-width" style="font-size: 22px; color: #000000; overflow: hidden;">
+        <div class="max-width" style="position: relative;">
 
-            <div style="display: block; width: 50%; padding: 30px 0;">
+            <div style="display: block; width: 50%; padding: 30px 0; position: relative; z-index: 2;">
 
                 <div class="full-width" style="margin: 30px 0;">
                     <div style="display: block; width: 16px; float: left;">
@@ -404,8 +404,10 @@
                     <div class="clearfix"></div>
                 </div>
 
+            </div>
 
-
+            <div style="display: inline-block; vertical-align: top; position: absolute; top: -10px; right: -160px; z-index: 1;">
+                <img src="<? echo $path; ?>/images/tariff/img/img-itog.png" alt="" draggable="false">
             </div>
 
         </div>
