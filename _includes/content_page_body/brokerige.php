@@ -45,7 +45,7 @@
 
 </div>
 
-<div class="full-width" style="height: 4000px; background: linear-gradient(172.17deg, #E1E1E1 -6.93%, #EBF5FF 11.11%, #C1E0F7 37.37%, #EBF5FF 90.86%);">
+<div class="full-width" style="background: linear-gradient(172.17deg, #E1E1E1 -6.93%, #EBF5FF 11.11%, #C1E0F7 37.37%, #EBF5FF 90.86%);">
 
     <div class="full-width" style="padding-top: 60px; font-size: 36px; color: #4F4F4F; text-align: center;">
         Программа курса
@@ -219,7 +219,7 @@
 
     <!-- -->
 
-    <div class="max-width" style="margin-top: 60px; padding: 40px 0; background: #ffffff; box-shadow: 0 38px 27px rgba(0, 0, 0, 0.25); position: relative;">
+    <div class="max-width" style="margin-top: 60px; padding: 40px 0 60px 0; background: #ffffff; box-shadow: 0 38px 27px rgba(0, 0, 0, 0.25); position: relative;">
 
         <div class="full-width" style="font-size: 48px; color: #005077; text-align: center;">
             Как проходит обучение
@@ -232,7 +232,9 @@
                     <img src="<? echo $path; ?>/images/tariff/icons/learn-go-1.png">
                 </div>
                 <div class="full-width" style="margin: 36px 0;">
-                    <div style="display: inline-block; vertical-align: top; width: 38px; height: 38px; background: #579BDA; border-radius: 50%; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);"></div>
+                    <div style="display: inline-block; vertical-align: top; width: 38px; height: 38px; background: #005077; border-radius: 50%; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); position: relative;">
+                        <div style="display: block; width: 7px; height: 7px; background: #ffffff; border-radius: 50%; position: absolute; left: 9px; top: 9px; z-index: 1;"></div>
+                    </div>
                 </div>
                 <div class="full-width" style="font-family: 'Circe-Light', sans-serif; font-size: 24px; color: #005077;">
                     Обучающий модуль в формате последовательных видео-уроков
@@ -244,7 +246,9 @@
                     <img src="<? echo $path; ?>/images/tariff/icons/learn-go-2.png">
                 </div>
                 <div class="full-width" style="margin: 36px 0;">
-                    <div style="display: inline-block; vertical-align: top; width: 38px; height: 38px; background: #579BDA; border-radius: 50%; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);"></div>
+                    <div style="display: inline-block; vertical-align: top; width: 38px; height: 38px; background: #005077; border-radius: 50%; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); position: relative;">
+                        <div style="display: block; width: 7px; height: 7px; background: #ffffff; border-radius: 50%; position: absolute; left: 9px; top: 9px; z-index: 1;"></div>
+                    </div>
                 </div>
                 <div class="full-width" style="font-family: 'Circe-Light', sans-serif; font-size: 24px; color: #005077;">
                     Домашнее задание на основе реального кейса
@@ -256,7 +260,9 @@
                     <img src="<? echo $path; ?>/images/tariff/icons/learn-go-3.png">
                 </div>
                 <div class="full-width" style="margin: 36px 0;">
-                    <div style="display: inline-block; vertical-align: top; width: 38px; height: 38px; background: #579BDA; border-radius: 50%; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);"></div>
+                    <div style="display: inline-block; vertical-align: top; width: 38px; height: 38px; background: #005077; border-radius: 50%; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); position: relative;">
+                        <div style="display: block; width: 7px; height: 7px; background: #ffffff; border-radius: 50%; position: absolute; left: 9px; top: 9px; z-index: 1;"></div>
+                    </div>
                 </div>
                 <div class="full-width" style="font-family: 'Circe-Light', sans-serif; font-size: 24px; color: #005077;">
                     Комментирование, индивидуальный разбор и одобрение домашнего задания с куратором/преподавателем.
@@ -268,7 +274,9 @@
                     <img src="<? echo $path; ?>/images/tariff/icons/learn-go-4.png">
                 </div>
                 <div class="full-width" style="margin: 36px 0;">
-                    <div style="display: inline-block; vertical-align: top; width: 38px; height: 38px; background: #579BDA; border-radius: 50%; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);"></div>
+                    <div style="display: inline-block; vertical-align: top; width: 38px; height: 38px; background: #005077; border-radius: 50%; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); position: relative;">
+                        <div style="display: block; width: 7px; height: 7px; background: #ffffff; border-radius: 50%; position: absolute; left: 9px; top: 9px; z-index: 1;"></div>
+                    </div>
                 </div>
                 <div class="full-width" style="font-family: 'Circe-Light', sans-serif; font-size: 24px; color: #005077;">
                     Доступ к следующему модулю
@@ -279,11 +287,135 @@
 
         </div>
 
+        <div class="full-width" style="margin-top: 50px; text-align: center;">
+
+            <div style="display: inline-block; vertical-align: top; padding: 18px 50px; background: linear-gradient(282.26deg, #079548 8.48%, #3D9507 94.35%); box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); font-size: 18px; color: #ffffff; text-transform: uppercase; border-radius: 30px; cursor: pointer;">
+                Записаться
+            </div>
+
+        </div>
+
         <div class="full-width" style="height: 10px; background: url('<? echo $path; ?>/images/tariff/icons/learn-go-line.png') repeat-x; position: absolute; left: 0; top: 264px; z-index: 1;"></div>
 
     </div>
 
     <!-- -->
+
+    <div class="full-width" style="margin-top: 100px; font-size: 48px; color: #005077; font-weight: bold; text-align: left;">
+        <div class="max-width">
+            По итогам курса ты будешь уметь
+        </div>
+    </div>
+
+    <!-- -->
+
+    <div class="full-width" style="font-size: 22px; color: #000000;">
+        <div class="max-width">
+
+            <div style="display: block; width: 50%; padding: 30px 0;">
+
+                <div class="full-width" style="margin: 30px 0;">
+                    <div style="display: block; width: 16px; float: left;">
+                        <img src="<? echo $path; ?>/images/tariff/icons/itog-icon.png" alt="">
+                    </div>
+                    <div style="margin-left: 16px; padding-left: 20px; line-height: 24px;">
+                        Ты будешь общаться с арендаторами и собственниками торговой недвижимости на одном языке
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="full-width" style="margin: 30px 0;">
+                    <div style="display: block; width: 16px; float: left;">
+                        <img src="<? echo $path; ?>/images/tariff/icons/itog-icon.png" alt="">
+                    </div>
+                    <div style="margin-left: 16px; padding-left: 20px;">
+                        Ты создашь стабильный приток объектов для работы
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="full-width" style="margin: 30px 0;">
+                    <div style="display: block; width: 16px; float: left;">
+                        <img src="<? echo $path; ?>/images/tariff/icons/itog-icon.png" alt="">
+                    </div>
+                    <div style="margin-left: 16px; padding-left: 20px;">
+                        Ты будешь продавать свои слуги в 2-3 раза дороже конкурентов
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="full-width" style="margin: 30px 0;">
+                    <div style="display: block; width: 16px; float: left;">
+                        <img src="<? echo $path; ?>/images/tariff/icons/itog-icon.png" alt="">
+                    </div>
+                    <div style="margin-left: 16px; padding-left: 20px;">
+                        Ты будешь юридически подкован
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="full-width" style="margin: 30px 0;">
+                    <div style="display: block; width: 16px; float: left;">
+                        <img src="<? echo $path; ?>/images/tariff/icons/itog-icon.png" alt="">
+                    </div>
+                    <div style="margin-left: 16px; padding-left: 20px;">
+                        Ты научишься проводить легкий, но эффективный внешний и внутренний аудит
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="full-width" style="margin: 30px 0;">
+                    <div style="display: block; width: 16px; float: left;">
+                        <img src="<? echo $path; ?>/images/tariff/icons/itog-icon.png" alt="">
+                    </div>
+                    <div style="margin-left: 16px; padding-left: 20px;">
+                        Ты сможешь быстро заинтересовать арендатора и сделаешь изнего союзника
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="full-width" style="margin: 30px 0;">
+                    <div style="display: block; width: 16px; float: left;">
+                        <img src="<? echo $path; ?>/images/tariff/icons/itog-icon.png" alt="">
+                    </div>
+                    <div style="margin-left: 16px; padding-left: 20px;">
+                        Ты будешь заключать только выгодные для все договоры аренды
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="full-width" style="margin: 30px 0;">
+                    <div style="display: block; width: 16px; float: left;">
+                        <img src="<? echo $path; ?>/images/tariff/icons/itog-icon.png" alt="">
+                    </div>
+                    <div style="margin-left: 16px; padding-left: 20px;">
+                        Ты гарантировано будешь получать вознаграждение за свои услуги
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="full-width" style="margin: 30px 0;">
+                    <div style="display: block; width: 16px; float: left;">
+                        <img src="<? echo $path; ?>/images/tariff/icons/itog-icon.png" alt="">
+                    </div>
+                    <div style="margin-left: 16px; padding-left: 20px;">
+                        Ты будешь обладать всеми инструментами для самостоятельной работы брокером торговой недвижимости
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
 
 
 
