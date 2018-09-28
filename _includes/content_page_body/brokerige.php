@@ -372,24 +372,22 @@
                 </div>
             </div>
         </div>
+
+        <div class="full-width tariff">
+
+            <div class="inline-design-img">
+                <img src="<? echo $path; ?>/images/tariff/img/img-itog.png" alt="" draggable="false">
+            </div>
+
+            <div class="full-width" style="position: relative; z-index: 2;">
+                <img src="<? echo $path; ?>/images/tariff/img/tariff-monitor.png" alt="" draggable="false">
+            </div>
+
+        </div>
+
     </div>
 
     <!-- -->
-
-    <div class="full-width tariff">
-
-        <div class="inline-design-img">
-            <img src="<? echo $path; ?>/images/tariff/img/img-itog.png" alt="" draggable="false">
-        </div>
-
-        <div style="display: inline-block; vertical-align: top; position: relative; z-index: 2;">
-            <img src="<? echo $path; ?>/images/tariff/img/tariff-monitor.png" alt="" draggable="false">
-        </div>
-
-    </div>
-
-
-
 
 
 

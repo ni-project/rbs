@@ -7,6 +7,43 @@
 
 
 
+
+
+
+
+
+
+
+
+    /**/
+
+    .rate-container .learn-get-title { font-size: 36px; }
+    .rate-container .learn-get-content { margin-top: 30px; font-size: 18px; }
+    .rate-container .learn-get-content .item-learn-inline { margin: 22px 0; }
+
+    /**/
+
+    .rate-container .go-learn-container .go-learn-title { font-size: 36px; }
+    .rate-container .go-learn-container .go-learn-items .item-learn-name { font-size: 22px; }
+    .rate-container .go-learn-container .go-learn-line { top: 248px; }
+
+    /**/
+
+    .rate-container .itog-title { font-size: 36px; }
+    .rate-container .itog-list-container { font-size: 18px; overflow-x: hidden; }
+    .rate-container .itog-list-container .itog-items .itog-item { margin: 24px 0; }
+    .rate-container .itog-list-container .itog-items { padding: 20px 0 40px 0; }
+
+    /**/
+
+    .rate-container .tariff .inline-design-img { right: 0; top: -624px; }
+    .rate-container .tariff .inline-design-img img { width: 770px; }
+
+
+
+
+
+
 }
 
 @media screen and (max-width: 1250px) {
