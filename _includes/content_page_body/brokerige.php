@@ -415,28 +415,27 @@
 
     <!-- -->
 
-    <div class="full-width" style="margin-top: 0; text-align: center;">
+    <div class="full-width" style="margin-top: 0; text-align: center; position: relative; z-index: 2;">
 
         <img src="<? echo $path; ?>/images/tariff/img/tariff-monitor.png" alt="" draggable="false">
 
     </div>
 
+    <div class="full-width" style="margin-top: -110px; text-align: center; position: relative; z-index: 1;">
 
+        <img src="<? echo $path; ?>/images/tariff/img/img-itog-regim.png" alt="" draggable="false">
 
+    </div>
 
+    <div class="full-width" style="margin-top: 60px; text-align: center;">
+
+        <img src="<? echo $path; ?>/images/tariff/img/img-itog-text.png" alt="" draggable="false">
+
+    </div>
 
 
 
 </div>
-
-
-
-
-
-
-
-
-
 
 <!-- JS PAGE -->
 
