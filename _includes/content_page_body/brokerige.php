@@ -272,7 +272,7 @@
 
         </div>
 
-        <div class="full-width" style="height: 10px; background: url('<? echo $path; ?>/images/tariff/icons/learn-go-line.png') repeat-x; position: absolute; left: 0; top: 264px; z-index: 1;"></div>
+        <div class="full-width go-learn-line"></div>
 
     </div>
 

@@ -88,7 +88,7 @@
 }
 .rate-container .go-learn-container .go-learn-btn-block .go-learn-button:hover { background: linear-gradient(282.26deg, #3D9507 8.48%, #079548 94.35%); box-shadow: none; }
 
-
+.rate-container .go-learn-container .go-learn-line { height: 10px; background: url('../images/tariff/icons/learn-go-line.png') repeat-x; position: absolute; left: 0; top: 264px; z-index: 1; }
 
 
 
