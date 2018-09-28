@@ -278,7 +278,7 @@
 
     <!-- -->
 
-    <div class="full-width" style="margin-top: 100px; font-size: 48px; color: #005077; font-weight: bold; text-align: left;">
+    <div class="full-width itog-title">
         <div class="max-width">
             По итогам курса ты будешь уметь
         </div>
@@ -286,113 +286,99 @@
 
     <!-- -->
 
-    <div class="full-width" style="font-size: 22px; color: #000000; position: relative; z-index: 2;">
+    <div class="full-width itog-list-container">
         <div class="max-width">
-
-            <div style="display: block; width: 50%; padding: 30px 0; position: relative; z-index: 2;">
-
-                <div class="full-width" style="margin: 30px 0;">
-                    <div style="display: block; width: 16px; float: left;">
+            <div class="itog-items">
+                <div class="full-width itog-item">
+                    <div class="item-icon">
                         <img src="<? echo $path; ?>/images/tariff/icons/itog-icon.png" alt="">
                     </div>
-                    <div style="margin-left: 16px; padding-left: 20px; line-height: 24px;">
+                    <div class="item-name">
                         Ты будешь общаться с арендаторами и собственниками торговой недвижимости на одном языке
                     </div>
                     <div class="clearfix"></div>
                 </div>
-
-                <div class="full-width" style="margin: 30px 0;">
-                    <div style="display: block; width: 16px; float: left;">
+                <div class="full-width itog-item">
+                    <div class="item-icon">
                         <img src="<? echo $path; ?>/images/tariff/icons/itog-icon.png" alt="">
                     </div>
-                    <div style="margin-left: 16px; padding-left: 20px;">
+                    <div class="item-name">
                         Ты создашь стабильный приток объектов для работы
                     </div>
                     <div class="clearfix"></div>
                 </div>
-
-                <div class="full-width" style="margin: 30px 0;">
-                    <div style="display: block; width: 16px; float: left;">
+                <div class="full-width itog-item">
+                    <div class="item-icon">
                         <img src="<? echo $path; ?>/images/tariff/icons/itog-icon.png" alt="">
                     </div>
-                    <div style="margin-left: 16px; padding-left: 20px;">
+                    <div class="item-name">
                         Ты будешь продавать свои слуги в 2-3 раза дороже конкурентов
                     </div>
                     <div class="clearfix"></div>
                 </div>
-
-                <div class="full-width" style="margin: 30px 0;">
-                    <div style="display: block; width: 16px; float: left;">
+                <div class="full-width itog-item">
+                    <div class="item-icon">
                         <img src="<? echo $path; ?>/images/tariff/icons/itog-icon.png" alt="">
                     </div>
-                    <div style="margin-left: 16px; padding-left: 20px;">
+                    <div class="item-name">
                         Ты будешь юридически подкован
                     </div>
                     <div class="clearfix"></div>
                 </div>
-
-                <div class="full-width" style="margin: 30px 0;">
-                    <div style="display: block; width: 16px; float: left;">
+                <div class="full-width itog-item">
+                    <div class="item-icon">
                         <img src="<? echo $path; ?>/images/tariff/icons/itog-icon.png" alt="">
                     </div>
-                    <div style="margin-left: 16px; padding-left: 20px;">
+                    <div class="item-name">
                         Ты научишься проводить легкий, но эффективный внешний и внутренний аудит
                     </div>
                     <div class="clearfix"></div>
                 </div>
-
-                <div class="full-width" style="margin: 30px 0;">
-                    <div style="display: block; width: 16px; float: left;">
+                <div class="full-width itog-item">
+                    <div class="item-icon">
                         <img src="<? echo $path; ?>/images/tariff/icons/itog-icon.png" alt="">
                     </div>
-                    <div style="margin-left: 16px; padding-left: 20px;">
+                    <div class="item-name">
                         Ты сможешь быстро заинтересовать арендатора и сделаешь изнего союзника
                     </div>
                     <div class="clearfix"></div>
                 </div>
-
-                <div class="full-width" style="margin: 30px 0;">
-                    <div style="display: block; width: 16px; float: left;">
+                <div class="full-width itog-item">
+                    <div class="item-icon">
                         <img src="<? echo $path; ?>/images/tariff/icons/itog-icon.png" alt="">
                     </div>
-                    <div style="margin-left: 16px; padding-left: 20px;">
+                    <div class="item-name">
                         Ты будешь заключать только выгодные для все договоры аренды
                     </div>
                     <div class="clearfix"></div>
                 </div>
-
-                <div class="full-width" style="margin: 30px 0;">
-                    <div style="display: block; width: 16px; float: left;">
+                <div class="full-width itog-item">
+                    <div class="item-icon">
                         <img src="<? echo $path; ?>/images/tariff/icons/itog-icon.png" alt="">
                     </div>
-                    <div style="margin-left: 16px; padding-left: 20px;">
+                    <div class="item-name">
                         Ты гарантировано будешь получать вознаграждение за свои услуги
                     </div>
                     <div class="clearfix"></div>
                 </div>
-
-                <div class="full-width" style="margin: 30px 0;">
-                    <div style="display: block; width: 16px; float: left;">
+                <div class="full-width itog-item">
+                    <div class="item-icon">
                         <img src="<? echo $path; ?>/images/tariff/icons/itog-icon.png" alt="">
                     </div>
-                    <div style="margin-left: 16px; padding-left: 20px;">
+                    <div class="item-name">
                         Ты будешь обладать всеми инструментами для самостоятельной работы брокером торговой недвижимости
                     </div>
                     <div class="clearfix"></div>
                 </div>
-
             </div>
-
-
-
         </div>
     </div>
 
     <!-- -->
 
-    <div class="full-width" style="margin-top: 0; text-align: center; position: relative; z-index: 1;">
+    <div class="full-width tariff">
 
-        <div style="display: inline-block; vertical-align: top; position: absolute; top: -816px; right: 220px; z-index: 1;">
+        <div class="inline-design-img">
             <img src="<? echo $path; ?>/images/tariff/img/img-itog.png" alt="" draggable="false">
         </div>
 

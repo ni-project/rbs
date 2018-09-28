@@ -90,6 +90,25 @@
 
 .rate-container .go-learn-container .go-learn-line { height: 10px; background: url('../images/tariff/icons/learn-go-line.png') repeat-x; position: absolute; left: 0; top: 264px; z-index: 1; }
 
+/**/
+
+.rate-container .itog-title { margin-top: 100px; font-size: 48px; color: #005077; font-weight: bold; text-align: left; }
+
+.rate-container .itog-list-container { font-size: 22px; color: #000000; position: relative; z-index: 2; }
+
+.rate-container .itog-list-container .itog-items { display: block; width: 50%; padding: 30px 0; }
+
+.rate-container .itog-list-container .itog-items .itog-item { margin: 30px 0; }
+
+.rate-container .itog-list-container .itog-items .itog-item .item-icon { display: block; width: 16px; float: left; }
+
+.rate-container .itog-list-container .itog-items .itog-item .item-name { margin-left: 16px; padding-left: 20px; line-height: 24px; }
+
+/**/
+
+.rate-container .tariff { margin-top: 0; text-align: center; position: relative; z-index: 1; }
+
+.rate-container .tariff .inline-design-img { display: inline-block; vertical-align: top; position: absolute; top: -816px; right: 220px; z-index: 1; }
 
 
 
