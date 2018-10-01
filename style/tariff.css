@@ -110,7 +110,12 @@
 
 .rate-container .tariff .inline-design-img { display: inline-block; vertical-align: top; position: absolute; top: -816px; right: 220px; z-index: 1; }
 
+/**/
 
+.digits { display: block; width: 100%; /*height: 90px;*/ margin-top: 8px; }
+.digits .cntSeparator { display: inline-block; vertical-align: middle; margin: 0 4px; padding-top: 24px; font-size: 20px; font-weight: 600; }
+
+/**/
 
 
 

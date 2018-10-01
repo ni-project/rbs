@@ -1,6 +1,17 @@
 
 <!-- price brokerige -->
 
+<script src="<? echo $path; ?>/scripts/media/jquery.countdown.js"></script>
+<script>
+    $(function(){
+        $(".digits").countdown({
+            image: "<? echo $path; ?>/images/tariff/counting/digits.png",
+            /*startTime: "15:11:24:00",*/
+            endTime: new Date('10/10/18 19:00:00') /* дата = месяц, день, год */
+        });
+    });
+</script>
+
 <div class="full-width start-block">
     <div class="full-wh max-absolute sb-shading"></div>
     <div class="sb-container">
@@ -389,12 +400,75 @@
 
     <!-- -->
 
+    <div class="full-width">
 
 
+        <div class="full-width" style="height: 830px; margin-top: -100px; background: url('<? echo $path; ?>/images/tariff/img/t-subtract-tariff.png') 50% 0 no-repeat;">
+
+            <div style="display: block; max-width: 1070px; margin: 0 auto; padding-top: 130px; text-align: center;">
+
+                <div class="full-width" style="font-size: 48px;">
+                    В течение 3х часов у тебя есть уникальный шанс
+                </div>
+
+                <div class="full-width" style="font-size: 48px;">
+                    купить курс по максимально низкой цене!
+                </div>
+
+                <div class="full-width" style="margin: 20px 0; font-size: 58px; color: #005077; font-weight: bold;">
+                    Не упусти возможность!
+                </div>
+
+                <div class="full-width" style="font-size: 48px;">
+                    Времени осталось мало!
+                </div>
+
+            </div>
+
+        </div>
 
 
+        <div class="full-width" style="margin-top: -270px; text-align: center;">
+
+            <div style="display: inline-block; vertical-align: top; padding: 40px; background: #ffffff; box-shadow: 0 60px 40px rgba(100, 100, 100, 0.6);">
+
+                <div class="digits"></div>
+
+                <div class="clearfix"></div>
+
+            </div>
+
+        </div>
 
 
+        <div class="full-width" style="margin-top: 80px; padding-bottom: 50px; text-align: center;">
+
+            <div class="full-width" style="font-size: 48px; line-height: 60px;">
+                Нет возможности оплатить все сразу?<br>Тебе повезло!
+            </div>
+
+            <div class="full-width" style="margin-top: 30px; font-size: 38px; color: #555555; line-height: 48px;">
+                Только сегодня, пока идет отчет обратного времени, ты можешь<br>«заморозить» цену понравившегося тарифа, внеся предоплату в размере
+            </div>
+
+            <div class="full-width" style="margin-top: 30px; font-size: 48px; color: #005077; font-weight: bold;">
+                всего 5 000 рублей*.
+            </div>
+
+            <div class="full-width" style="margin-top: 30px; font-size: 38px; color: #555555;">
+                Жми «Записаться», оплачивай и вперед к новым вершинам!
+            </div>
+
+            <div class="full-width" style="margin-top: 40px; font-size: 24px; color: #000000;">
+                *Рассрочка платежа и заморозка стоимости курса действует при внесения предоплаты<br>в размере 5 000 рублей, и погашения оставшейся суммы не позднее 24 часов до старта обучения.
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- -->
 
 </div>
 
