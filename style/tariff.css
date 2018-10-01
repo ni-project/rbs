@@ -117,8 +117,20 @@
 
 /**/
 
-
-
+.wr-button {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+    padding: 18px 50px;
+    background: linear-gradient(282.26deg, #890004 8.48%, #c60004 94.35%);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.wr-button:hover { background: linear-gradient(282.26deg, #c60004 8.48%, #890004 94.35%); box-shadow: none; }
 
 
 

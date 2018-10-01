@@ -456,7 +456,11 @@
             </div>
 
             <div class="full-width" style="margin-top: 30px; font-size: 38px; color: #555555;">
-                Жми «Записаться», оплачивай и вперед к новым вершинам!
+                Жми
+                <div class="wr-button transit-300">
+                    Записаться
+                </div>
+                оплачивай и вперед к новым вершинам!
             </div>
 
             <div class="full-width" style="margin-top: 40px; font-size: 24px; color: #000000;">
