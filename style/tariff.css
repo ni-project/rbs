@@ -38,6 +38,9 @@
 
 .rate-container .program-content .pr-btn-container .btn-program:hover { background: linear-gradient(282.26deg, #3D9507 8.48%, #079548 94.35%); box-shadow: none; }
 
+.img-prog-monitor { display: inline-block; }
+.img-prog-tablet-gorizont { display: none; }
+
 /**/
 
 .rate-container .learn-get-title { padding-top: 60px; font-size: 48px; color: #005077; font-weight: bold; text-align: center; }
@@ -96,7 +99,7 @@
 
 .rate-container .itog-list-container { font-size: 22px; color: #000000; position: relative; z-index: 2; }
 
-.rate-container .itog-list-container .itog-items { display: block; width: 50%; padding: 30px 0; }
+.rate-container .itog-list-container .itog-items { display: block; width: 50%; padding: 30px 0; position: relative; z-index: 2; }
 
 .rate-container .itog-list-container .itog-items .itog-item { margin: 30px 0; }
 
@@ -131,6 +134,36 @@
     cursor: pointer;
 }
 .wr-button:hover { background: linear-gradient(282.26deg, #c60004 8.48%, #890004 94.35%); box-shadow: none; }
+
+/**/
+
+.super-like { display: none; width: 100%; margin-top: -100px; }
+.super-like.view { display: block; }
+
+.super-like .like-substrate { height: 830px; background: url('../images/tariff/img/t-subtract-tariff.png') 50% 0 no-repeat; }
+
+.super-like .like-substrate .ls-content { display: block; max-width: 1070px; margin: 0 auto; padding-top: 130px; text-align: center; }
+
+.super-like .like-substrate .ls-content .ls-text-1 { font-size: 48px; }
+.super-like .like-substrate .ls-content .ls-text-2 { font-size: 48px; }
+.super-like .like-substrate .ls-content .ls-text-3 { margin: 20px 0; font-size: 58px; color: #005077; font-weight: bold; }
+.super-like .like-substrate .ls-content .ls-text-4 { font-size: 48px; }
+
+.super-like .like-time-container { margin-top: -270px; text-align: center; }
+
+.super-like .like-time-container .dig-block { display: inline-block; vertical-align: top; padding: 40px; background: #ffffff; box-shadow: 0 60px 40px rgba(100, 100, 100, 0.6); }
+
+.super-like .like-bottom { margin-top: 80px; padding-bottom: 50px; text-align: center; }
+
+.super-like .like-bottom .lb-text-1 { font-size: 48px; line-height: 60px; }
+.super-like .like-bottom .lb-text-2 { margin-top: 30px; font-size: 38px; color: #555555; line-height: 48px; }
+.super-like .like-bottom .lb-text-3 { margin-top: 30px; font-size: 48px; color: #005077; font-weight: bold; }
+.super-like .like-bottom .lb-text-4 { margin-top: 30px; font-size: 38px; color: #555555; }
+.super-like .like-bottom .lb-text-5 { margin-top: 40px; font-size: 24px; color: #000000; }
+
+
+
+
 
 
 

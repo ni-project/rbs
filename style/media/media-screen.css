@@ -60,6 +60,42 @@
 
     /* RATE BROKERIGE */
 
+    .top-bar-container .tb-logo { margin-left: 60px; }
+    .top-bar-container .right-container { margin-right: 60px; }
+
+    .start-block .sb-container .sb-container-cell .sb-bottom-container .mw-block { font-size: 16px; }
+    .start-block .sb-container .sb-container-cell .sb-bottom-container .mw-block .sb-inline-name { margin-right: 12px; }
+
+    .img-prog-monitor { display: none; }
+    .img-prog-tablet-gorizont { display: inline-block; }
+
+    .rate-container .go-learn-container .go-learn-items .col-xs-3 { width: 50%; }
+    .rate-container .go-learn-container .go-learn-items .item-learn-share .inline-share { display: none; }
+    .rate-container .go-learn-container .go-learn-line { display: none; }
+    .rate-container .go-learn-container .go-learn-items .item-learn-name { margin-bottom: 30px; padding: 0 22px; font-size: 22px; }
+    .rate-container .go-learn-container .go-learn-btn-block { margin-top: 20px; }
+
+    .rate-container .itog-title { margin-top: 80px; }
+    .rate-container .tariff .inline-design-img { right: -84px; }
+    .rate-container .itog-list-container .itog-items { width: 55%; }
+
+    .super-like .like-substrate { height: auto; }
+    .super-like { margin-top: 30px; }
+    .super-like .like-time-container { margin-top: 30px; }
+    .super-like .like-substrate .ls-content { padding: 50px 0; }
+    .super-like .like-substrate .ls-content .ls-text-1 { font-size: 38px; }
+    .super-like .like-substrate .ls-content .ls-text-2 { font-size: 38px; }
+    .super-like .like-substrate .ls-content .ls-text-3 { font-size: 48px; }
+    .super-like .like-substrate .ls-content .ls-text-4 { font-size: 38px; }
+
+    .super-like .like-bottom .lb-text-1 { font-size: 38px; }
+    .super-like .like-bottom .lb-text-2 { font-size: 28px; }
+    .super-like .like-bottom .lb-text-3 { font-size: 38px; }
+    .super-like .like-bottom .lb-text-4 { font-size: 28px; margin-top: 40px; }
+    .super-like .like-bottom .lb-text-5 { font-size: 20px; }
+    .wr-button { margin: -8px 20px 0 20px; }
+
+
 
 
     /* RATE BROKERIGE */
