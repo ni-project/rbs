@@ -394,7 +394,7 @@
             <div class="full-width" style="position: relative; z-index: 2;">
                 <img src="<? echo $path; ?>/images/tariff/img/tariff-monitor.png" alt="" draggable="false">
             </div>
-            
+
         </div>
 
     </div>
