@@ -161,6 +161,62 @@
 .super-like .like-bottom .lb-text-4 { margin-top: 30px; font-size: 38px; color: #555555; }
 .super-like .like-bottom .lb-text-5 { margin-top: 40px; font-size: 24px; color: #000000; }
 
+/* PAYMENT */
+
+.snow-block { height: 100%; overflow: hidden; position: absolute; left: 0; top: 0; z-index: -1; }
+
+.snow-max { position: relative; }
+
+.snow-max img { position: absolute; }
+
+.snow-max .snow-posit-1 { left: 300px; top: 104px; }
+.snow-max .snow-posit-2 { left: 600px; top: 204px; }
+.snow-max .snow-posit-3 { left: 800px; top: 404px; }
+.snow-max .snow-posit-4 { left: 1100px; top: 604px; }
+.snow-max .snow-posit-5 { left: 400px; top: 650px; }
+
+/**/
+
+.payment-bar { padding: 40px 80px 40px 0; }
+
+.payment-bar .p-logo { display: inline-block; vertical-align: top; float: left; margin-left: 80px; }
+
+.payment-bar .link-back { display: inline-block; vertical-align: top; padding-top: 16px; float: right; }
+
+.payment-bar .link-back a { font-size: 16px; color: #9D9D9D; }
+
+.payment-content { margin-top: 40px; margin-bottom: 200px; }
+
+.payment-content .max-content { position: relative; }
+
+.payment-content .max-content .content-cell { position: relative; z-index: 2; }
+
+.payment-content .max-content .content-cell .rate-title { font-size: 36px; }
+
+.payment-content .max-content .content-cell .rate-kurs-name { margin-top: 20px; font-size: 24px; }
+.payment-content .max-content .content-cell .rate-kurs-name img { margin-right: 12px; }
+
+.payment-content .max-content .content-cell .rate-srok { margin-top: 20px; font-size: 24px; color: #828282; }
+
+.payment-content .max-content .content-cell .rate-sum { margin-top: 20px; font-size: 36px; font-weight: bold; color: #2D9CDB; }
+
+.payment-content .max-content .content-cell .rate-sum .rate-sum-zamorozka { font-size: 18px; color: #2D9CDB; }
+
+.payment-content .max-content .content-cell .old-price { margin-top: 20px; font-size: 18px; color: #828282; }
+
+.payment-content .max-content .content-cell .old-price span { text-decoration: line-through; }
+
+.payment-content .max-content .content-cell .payment-btns { margin-top: 40px; }
+
+.payment-content .max-content .content-cell .payment-btns .pay-button { display: inline-block; vertical-align: top; padding: 12px 30px; margin-right: 30px; background: linear-gradient(282.26deg, #079548 8.48%, #3D9507 94.35%); box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); font-size: 14px; color: #ffffff; text-transform: uppercase; border-radius: 30px; cursor: pointer; }
+.payment-content .max-content .content-cell .payment-btns .pay-button:hover { background: linear-gradient(282.26deg, #3D9507 8.48%, #079548 94.35%); box-shadow: none; }
+
+.payment-content .max-content .content-cell .payment-btns .pay-button-zamor { display: inline-block; vertical-align: top; padding: 12px 30px; margin-right: 30px; background: linear-gradient(285.54deg, #0D8CC3 4.69%, #4BC9FF 110.44%); box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); font-size: 14px; color: #ffffff; text-transform: uppercase; border-radius: 30px; cursor: pointer; }
+.payment-content .max-content .content-cell .payment-btns .pay-button-zamor:hover { background: linear-gradient(285.54deg, #4BC9FF 4.69%, #0D8CC3 110.44%); box-shadow: none; }
+
+.payment-content .max-content .content-cell .oplata-text { margin-top: 30px; font-size: 14px; color: #828282; }
+
+.payment-content .max-content .cell-decoration { position: absolute; top: 0; right: 0; z-index: 1; }
 
 
 
@@ -171,7 +227,7 @@
 
 
 
-
+/*/PAYMENT/*/
 
 
 
