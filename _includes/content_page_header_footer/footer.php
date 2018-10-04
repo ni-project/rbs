@@ -13,7 +13,7 @@
 
                 <div style="display: inline-block; vertical-align: top; margin-left: 120px; padding-top: 20px;">
 
-                    <img src="<? echo $path; ?>/images/footer/mailto-icon.png" alt="" draggable="false"><a href="mailto:sales@rbs-24.ru" style="margin-left: 12px; font-size: 16px; color: #ffffff;">sales@rbs-24.ru</a>
+                    <img src="<? echo $path; ?>/images/footer/mailto-icon.png" alt="" draggable="false"><a href="mailto:sale@rbs-24.ru" style="margin-left: 12px; font-size: 16px; color: #ffffff;">sale@rbs-24.ru</a>
 
                 </div>
 
