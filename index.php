@@ -5,6 +5,7 @@ $path = 'http://'.$_SERVER['SERVER_NAME'];
 $page = $_GET['page'];
 $content_path = '_includes/content_page_body/';
 $content_page = $_GET['name'];
+$thank_page = $_GET['thankyou'];
 
 ?>
 
@@ -33,15 +34,34 @@ $content_page = $_GET['name'];
 
     if ( isset($page) ) {
 
-        $ex_file = $content_path.$content_page.'.php';
+        if ( isset($thank_page) ) {
 
-        if ( file_exists($ex_file) ) {
+            $ex_thank = $content_path . $thank_page . '.php';
 
-            include $ex_file;
+            if (file_exists($ex_thank)) {
+
+                include $ex_thank;
+                /*include $content_path . 'thank-' . $_GET['thankname'] . '.php';*/
+
+            } else {
+
+                include $content_path . '404.php';
+
+            }
 
         } else {
 
-            include $content_path.'404.php';
+            $ex_file = $content_path . $content_page . '.php';
+
+            if (file_exists($ex_file)) {
+
+                include $ex_file;
+
+            } else {
+
+                include $content_path . '404.php';
+
+            }
 
         }
 
