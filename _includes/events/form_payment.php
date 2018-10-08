@@ -30,9 +30,9 @@ $body .= "Email: ".$email."<br><br>";
 $body .= "Телефон: ".$phone."<br><br>";
 
 $header = "Content-type: text/html; charset=\"utf-8\"\r\n";
-$header .= "From: rbs@rbs-24.ru\r\n";
+$header .= "From: sale@rbs-24.ru\r\n";
 
-$email_address = "front.igor.m@gmail.com";
+$email_address = "sale@rbs-24.ru";
 
 $subject = $_SERVER['SERVER_NAME'] . " заявка на выписку счета";
 
