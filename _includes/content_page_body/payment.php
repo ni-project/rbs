@@ -47,7 +47,7 @@
 
                 <div class="pay-button transit-300">Сейчас онлайн</div>
 
-                <div class="pay-button transit-300">Выписать счет</div>
+                <div class="pay-button pay-form-score transit-300">Выписать счет</div>
 
                 <div class="pay-button-zamor transit-300">Заморозить цену</div>
 
@@ -77,3 +77,54 @@
     </div>
 </div>
 
+<!-- -->
+
+<div class="full-wh pay-form-container transit-600">
+
+    <div class="pay-form-block">
+        <div class="pay-form-cell">
+
+            <div class="pay-form-win">
+
+                <img src="<? echo $path; ?>/images/payment/pop-close.png" alt="" draggable="false" class="pay-pop-close">
+
+                <div class="full-width pay-form-title">
+                    Оставьте свои контактные данные для выставления счёта
+                </div>
+
+                <form class="pop-form-payment" action="<? echo $path; ?>/_includes/events/form_payment.php" method="post">
+                    <div class="full-width pay-form-content">
+                        <div class="full-width pay-form-item">
+                            <input type="text" name="name" placeholder="ФИО" class="full-width pay-in-form">
+                        </div>
+                        <div class="full-width pay-form-item">
+                            <input type="email" name="email" placeholder="Email" class="full-width pay-in-form">
+                        </div>
+                        <div class="full-width pay-form-item">
+                            <input type="tel" name="phone" placeholder="Телефон" class="full-width pay-in-form">
+                        </div>
+                    </div>
+
+                    <div class="full-width">
+                        <button class="pay-pop-button transit-300">Отправить</button>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="ajax-wait transit-300">
+    <img src="<? echo $path; ?>/images/preloader.png" alt="" draggable="false">
+</div>
+
+<!-- JS PAGE -->
+
+    <!-- js-form -->
+    <script src="<? echo $path; ?>/scripts/js-form/jquery.form.min.js"></script>
+    <script src="<? echo $path; ?>/scripts/js-form/jquery.maskedinput.js"></script>
+    <!--/js-form/-->
+<script src="<? echo $path; ?>/scripts/js-page/payment.js"></script>
