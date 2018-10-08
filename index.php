@@ -19,7 +19,9 @@ $thank_page = $_GET['thankyou'];
 
 <body>
 
+<!--
 <div id="sDetect" style="display: inline-block; /*display: none !important;*/ vertical-align: top; padding: 5px 10px; background: #990000; font-size: 11px; color: #ffffff; position: fixed; right: 0; bottom: 0; z-index: 3000;"></div>
+-->
 
 <header>
 

@@ -2,32 +2,38 @@
     .top-bar-container, footer { display: none; }
 </style>
 
-<div class="full-wh" style="overflow-y: auto; position: fixed; left: 0; top: 0; z-index: 1;">
+<div class="full-wh thank-page-container">
 
-    <div style="display: table; width: 100%; height: 100%;">
-        <div style="display: table-cell; vertical-align: middle; text-align: center; padding: 30px 20px;">
+    <div class="thank-wrap">
+        <div class="thank-cell">
 
-            <div class="full-width" style="font-size: 30px; color: #414654;">
-
+            <div class="full-width line-title-1">
                 Благодарим Вас за заявку на курс
-
             </div>
 
-            <div class="full-width" style="font-size: 30px; color: #414654;">
-
+            <div class="full-width line-title-1">
                 <b>«Брокер торговой недвижимости»</b> в тарифе <b>«БИЗНЕС»</b>
-
             </div>
 
-            <div class="full-width" style="font-size: 24px; color: #2d9cdb;">
-
-                Ближайшее время менеджер свяжется с вами для выставления счёта.
-
+            <div class="full-width line-title-2">
+                За 72 часа до старта курса мы вышлем ссылку на оплату оставшейся суммы.
             </div>
 
-            <div class="full-width">
+            <div class="full-width line-title-2">
+                Чтобы получить ссылку раньше, просто напишите об этом на почту sale@rbs-24.ru
+            </div>
 
-                sum
+            <div class="full-width date-block">
+
+                <div class="date-cell">
+                    <img src="<? echo $path; ?>/images/thankyou/3.png" alt="" draggable="false" class="img-cell">
+                    <div class="full-width date-dsk">
+                        Дата: <b>01 октября – 30 декабря</b>
+                    </div>
+                    <div class="full-width date-dsk">
+                        Преподаватель: <b>Иван Чернышов</b>
+                    </div>
+                </div>
 
             </div>
 

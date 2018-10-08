@@ -47,13 +47,9 @@
 
                 <div class="pay-button transit-300">Сейчас онлайн</div>
 
-                <div class="pay-button transit-300">
-                    Выписать счет
-                </div>
+                <div class="pay-button transit-300">Выписать счет</div>
 
-                <div class="pay-button-zamor transit-300">
-                    Заморозить цену
-                </div>
+                <div class="pay-button-zamor transit-300">Заморозить цену</div>
 
             </div>
 
@@ -80,3 +76,4 @@
         <img src="<? echo $path; ?>/images/payment/snow.png" alt="" draggable="false" class="snow-posit-5">
     </div>
 </div>
+
