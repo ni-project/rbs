@@ -15,7 +15,10 @@ function startBlock() {
 
 }
 
-
+$(document).on('click', '.go-rate', function() {
+    var ratePos = $('#g-price').offset().top - 200;
+    $('html, body').animate({ scrollTop : ratePos+'px' }, 1000);
+});
 
 
 

@@ -24,7 +24,7 @@
                     Заработай от 300 000 рублей в месяц без инвестиций
                 </div>
                 <div class="full-width sb-btn-block">
-                    <div class="sb-button transit-300">
+                    <div class="sb-button go-rate transit-300">
                         Записаться
                     </div>
                 </div>
@@ -58,7 +58,7 @@
         <img src="<? echo $path; ?>/images/tariff/program-kurs/monitor.png" alt="" draggable="false" class="img-prog-monitor">
         <img src="<? echo $path; ?>/images/tariff/program-kurs/tablet-gorizont.png" alt="" draggable="false" class="img-prog-tablet-gorizont">
         <div class="full-width pr-btn-container">
-            <div class="btn-program transit-300">
+            <div class="btn-program go-rate transit-300">
                 Начать зарабатывать
             </div>
         </div>
@@ -278,7 +278,7 @@
 
         <div class="full-width go-learn-btn-block">
 
-            <div class="go-learn-button transit-300">
+            <div class="go-learn-button go-rate transit-300">
                 Записаться
             </div>
 
@@ -395,7 +395,7 @@
                 <div style="display: inline-block; vertical-align: top; position: relative;">
                     <img src="<? echo $path; ?>/images/tariff/img/tariff-monitor-action.png" alt="" draggable="false">
 
-                    <div style="position: absolute; right: 56px; bottom: 192px;">
+                    <div style="position: absolute; right: 56px; bottom: 192px;" id="g-price">
 
                         <div style="display: inline-block; vertical-align: top; width: 184px;">
                             <div class="full-width" style="margin: 8px 0; font-size: 22px; color: #154573; font-weight: bold;">
@@ -479,7 +479,7 @@
             </div>
             <div class="full-width lb-text-4">
                 Жми
-                <div class="wr-button transit-300">
+                <div class="wr-button go-rate transit-300">
                     Записаться
                 </div>
                 оплачивай и вперед к новым вершинам!
