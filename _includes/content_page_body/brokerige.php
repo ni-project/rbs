@@ -391,8 +391,48 @@
                 <img src="<? echo $path; ?>/images/tariff/img/img-itog.png" alt="" draggable="false">
             </div>
 
-            <div class="full-width" style="position: relative; z-index: 2;">
-                <img src="<? echo $path; ?>/images/tariff/img/tariff-monitor.png" alt="" draggable="false">
+            <div class="full-width" style="position: relative; z-index: 2; text-align: center;">
+                <div style="display: inline-block; vertical-align: top; position: relative;">
+                    <img src="<? echo $path; ?>/images/tariff/img/tariff-monitor-action.png" alt="" draggable="false">
+
+                    <div style="position: absolute; right: 56px; bottom: 192px;">
+
+                        <div style="display: inline-block; vertical-align: top; width: 184px;">
+                            <div class="full-width" style="margin: 8px 0; font-size: 22px; color: #154573; font-weight: bold;">
+                                150 000 ₽
+                            </div>
+                            <div class="full-width" style="margin: 8px 0; font-size: 18px; color: #636d74; text-decoration: line-through;">
+                                200 000 ₽
+                            </div>
+                            <a href="http://rbs-24.dev.com/price/payment" class="go-learn-button transit-300" style="display: inline-block; vertical-align: top; margin: 8px 0; padding: 12px 28px; background: linear-gradient(282.26deg, #079548 8.48%, #3D9507 94.35%); box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); font-size: 14px; color: #ffffff; text-transform: uppercase; text-decoration: none !important; border-radius: 30px; cursor: pointer;">
+                                Записаться
+                            </a>
+                        </div>
+                        <div style="display: inline-block; vertical-align: top; width: 184px;">
+                            <div class="full-width" style="margin: 8px 0; font-size: 22px; color: #154573; font-weight: bold;">
+                                37 000 ₽
+                            </div>
+                            <div class="full-width" style="margin: 8px 0; font-size: 18px; color: #636d74; text-decoration: line-through;">
+                                57 000 ₽
+                            </div>
+                            <a href="http://rbs-24.dev.com/price/payment" class="go-learn-button transit-300" style="display: inline-block; vertical-align: top; margin: 8px 0; padding: 12px 28px; background: linear-gradient(282.26deg, #079548 8.48%, #3D9507 94.35%); box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); font-size: 14px; color: #ffffff; text-transform: uppercase; text-decoration: none !important; border-radius: 30px; cursor: pointer;">
+                                Записаться
+                            </a>
+                        </div>
+                        <div style="display: inline-block; vertical-align: top; width: 184px;">
+                            <div class="full-width" style="margin: 8px 0; font-size: 22px; color: #154573; font-weight: bold;">
+                                17 000 ₽
+                            </div>
+                            <div class="full-width" style="margin: 8px 0; font-size: 18px; color: #636d74; text-decoration: line-through;">
+                                27 000 ₽
+                            </div>
+                            <a href="http://rbs-24.dev.com/price/payment" class="go-learn-button transit-300" style="display: inline-block; vertical-align: top; margin: 8px 0; padding: 12px 28px; background: linear-gradient(282.26deg, #079548 8.48%, #3D9507 94.35%); box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); font-size: 14px; color: #ffffff; text-transform: uppercase; text-decoration: none !important; border-radius: 30px; cursor: pointer;">
+                                Записаться
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
             </div>
 
         </div>
