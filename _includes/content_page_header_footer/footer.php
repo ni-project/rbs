@@ -11,9 +11,13 @@
 
                 </div>
 
-                <div style="display: inline-block; vertical-align: top; margin-left: 120px; padding-top: 20px;">
+                <div style="display: inline-block; vertical-align: top; margin-left: 120px; padding-top: 0px;">
 
                     <img src="<? echo $path; ?>/images/footer/mailto-icon.png" alt="" draggable="false"><a href="mailto:sale@rbs-24.ru" style="margin-left: 12px; font-size: 16px; color: #ffffff;">sale@rbs-24.ru</a>
+
+                    <div class="full-width" style="padding-top: 20px; font-size: 20px; color: #ffffff;">
+                        8 800 551 94 59
+                    </div>
 
                 </div>
 

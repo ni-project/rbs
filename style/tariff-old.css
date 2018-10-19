@@ -26,7 +26,7 @@
 
 /**/
 
-.rate-container { background: linear-gradient(177.73deg, #FFFFFF 7.07%, #D4EDFF 45.41%, #E8F5FF 98.86%); }
+.rate-container { background: linear-gradient(172.17deg, #E1E1E1 -6.93%, #EBF5FF 11.11%, #C1E0F7 37.37%, #EBF5FF 90.86%); }
 
 .rate-container .title-program { padding-top: 60px; font-size: 36px; color: #4F4F4F; text-align: center; }
 
@@ -73,7 +73,7 @@
 
 .rate-container .go-learn-container .go-learn-items .item-learn-share .inline-share .inline-share-dot { display: block; width: 7px; height: 7px; background: #ffffff; border-radius: 50%; position: absolute; left: 9px; top: 9px; z-index: 1; }
 
-.rate-container .go-learn-container .go-learn-items .item-learn-name { font-family: 'Circe-Light', sans-serif; font-size: 18px; color: #005077; }
+.rate-container .go-learn-container .go-learn-items .item-learn-name { font-family: 'Circe-Light', sans-serif; font-size: 24px; color: #005077; }
 
 .rate-container .go-learn-container .go-learn-btn-block { margin-top: 50px; text-align: center; }
 
@@ -91,11 +91,11 @@
 }
 .rate-container .go-learn-container .go-learn-btn-block .go-learn-button:hover { background: linear-gradient(282.26deg, #3D9507 8.48%, #079548 94.35%); box-shadow: none; }
 
-.rate-container .go-learn-container .go-learn-line { height: 10px; background: url('../images/tariff/icons/learn-go-line.png') repeat-x; position: absolute; left: 0; top: 225px; z-index: 1; }
+.rate-container .go-learn-container .go-learn-line { height: 10px; background: url('../images/tariff/icons/learn-go-line.png') repeat-x; position: absolute; left: 0; top: 264px; z-index: 1; }
 
 /**/
 
-.rate-container .itog-title { margin-top: 100px; font-size: 48px; color: #005077; font-weight: bold; text-align: left; text-transform: uppercase; }
+.rate-container .itog-title { margin-top: 100px; font-size: 48px; color: #005077; font-weight: bold; text-align: left; }
 
 .rate-container .itog-list-container { font-size: 22px; color: #000000; position: relative; z-index: 2; }
 
@@ -103,9 +103,9 @@
 
 .rate-container .itog-list-container .itog-items .itog-item { margin: 30px 0; }
 
-.rate-container .itog-list-container .itog-items .itog-item .item-icon { display: block; width: 55px; float: left; }
+.rate-container .itog-list-container .itog-items .itog-item .item-icon { display: block; width: 16px; float: left; }
 
-.rate-container .itog-list-container .itog-items .itog-item .item-name { margin-left: 55px; padding-left: 20px; padding-top: 4px; line-height: 24px; font-size: 20px; color: #154573; font-weight: bold; }
+.rate-container .itog-list-container .itog-items .itog-item .item-name { margin-left: 16px; padding-left: 20px; line-height: 24px; }
 
 /**/
 
@@ -242,64 +242,6 @@
 .pay-form-container .pay-form-block .pay-form-cell .pay-form-win .pay-form-content .pay-form-item .pay-in-form { padding: 6px 20px; font-size: 16px; border-radius: 30px; border: 1px solid #A7A9AC; }
 
 .pay-form-container .pay-form-block .pay-form-cell .pay-form-win .pay-form-content .pay-form-item.error .pay-in-form { border: 1px solid #ff0000; }
-
-/**/
-
-.t-go-learn-button { display: inline-block; vertical-align: top; margin: 8px 0; padding: 12px 28px; background: linear-gradient(282.26deg, #079548 8.48%, #3D9507 94.35%); box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); font-size: 14px; color: #ffffff; text-transform: uppercase; text-decoration: none !important; border-radius: 30px; cursor: pointer; }
-.t-go-learn-button:hover { background: linear-gradient(282.26deg, #3D9507 8.48%, #079548 94.35%); box-shadow: none; }
-
-
-/* Customize the label (the ch-container) */
-.personal-data-block .ch-container {
-    display: block;
-    position: relative;
-    left: 0;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 16px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-/* Hide the browser's default checkbox */
-.personal-data-block .ch-container input { position: absolute; opacity: 0; cursor: pointer; }
-/* Create a custom checkbox */
-.personal-data-block .checkmark { position: absolute; top: 0; left: 0; height: 22px; width: 22px; background-color: #ebebeb; }
-/* On mouse-over, add a grey background color */
-.personal-data-block .ch-container:hover input ~ .checkmark { background-color: #cccccc; }
-/* When the checkbox is checked, add a blue background */
-.personal-data-block .ch-container input:checked ~ .checkmark { background-color: #27AE60; }
-/* Create the checkmark/indicator (hidden when not checked) */
-.personal-data-block .checkmark:after { content: ""; position: absolute; display: none; }
-/* Show the checkmark when checked */
-.personal-data-block .ch-container input:checked ~ .checkmark:after { display: block; }
-/* Style the checkmark/indicator */
-.personal-data-block .ch-container .checkmark:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-/*/Customize the label (the ch-container)/*/
-.pop-form-title { font-size: 36px; }
-.pop-form-block { display: block; max-width: 700px; margin: 0 auto; padding: 40px 0 50px 0; background: #ffffff; box-shadow: 0 0 20px rgba(0, 0, 0, 0.6); position: relative; }
-.close-pop { position: absolute; right: -40px; top: 0; cursor: pointer; }
-/*.quest-container .quest-form-container*/ .quest-form-item { margin: 30px 0; }
-/*.quest-container .quest-form-container*/ .quest-form-item .quest-in-form { padding: 15px 30px; font-size: 20px; border: 2px solid #C4C4C4; border-radius: 40px; }
-/*.quest-container .quest-form-container*/ .quest-form-item.error input { border: 2px solid #ff0000; }
-.quest-container .quest-form-container .quest-block-button { margin-top: 40px; text-align: center; }
-/*.quest-container .quest-form-container .quest-block-button*/ .quest-btn { display: inline-block; vertical-align: top; padding: 22px 100px; background: #27AE60; font-size: 20px; color: #ffffff; cursor: pointer; border: 0; border-radius: 40px; }
-/*.quest-container .quest-form-container .quest-block-button*/ .quest-btn:hover { background: #1f783c; }
-
-.zap-container { background: rgba(0, 0, 0, 0.5); overflow-y: auto; position: fixed; left: 0; top: 0; z-index: 1000; opacity: 0; visibility: hidden; }
-.zap-container.view { opacity: 1; visibility: visible; }
 
 
 

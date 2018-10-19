@@ -3,7 +3,7 @@
 $content_name = $_GET['name'];
 $bar_style = 'default';
 $bar_logo = $path.'/images/top-bar/logo.png';
-if ( $content_name == 'brokerige' ) {
+if ( $content_name == 'brokerige' || $content_name == 'brokerigerate' ) {
     $bar_style = 'not-bar';
     $bar_logo = $path.'/images/top-bar/logo-white.png';
 }
