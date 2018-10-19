@@ -55,7 +55,7 @@
     <!-- -->
 
     <div class="full-width program-content">
-        <img src="<? echo $path; ?>/images/tariff/program-kurs/monitor.png" alt="" draggable="false" class="img-prog-monitor">
+        <img src="<? echo $path; ?>/images/tariff/program-kurs/t-monitor.png" alt="" draggable="false" class="img-prog-monitor">
         <img src="<? echo $path; ?>/images/tariff/program-kurs/tablet-gorizont.png" alt="" draggable="false" class="img-prog-tablet-gorizont">
 
 
