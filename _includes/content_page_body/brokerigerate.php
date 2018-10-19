@@ -409,7 +409,7 @@
                             <div class="full-width" style="margin: 8px 0; font-size: 18px; color: #636d74; text-decoration: line-through;">
                                 200 000 ₽
                             </div>
-                            <div class="t-go-learn-button transit-300">
+                            <div class="t-go-learn-button transit-300" data-rate="ГАРАНТ">
                                 Записаться
                             </div>
                             <div class="full-width" style="margin: 8px 0; font-size: 12px; color: #636d74;">
@@ -423,7 +423,7 @@
                             <div class="full-width" style="margin: 8px 0; font-size: 18px; color: #636d74; text-decoration: line-through;">
                                 57 000 ₽
                             </div>
-                            <div class="t-go-learn-button transit-300">
+                            <div class="t-go-learn-button transit-300" data-rate="БИЗНЕС">
                                 Записаться
                             </div>
                         </div>
@@ -434,7 +434,7 @@
                             <div class="full-width" style="margin: 8px 0; font-size: 18px; color: #636d74; text-decoration: line-through;">
                                 27 000 ₽
                             </div>
-                            <div class="t-go-learn-button transit-300">
+                            <div class="t-go-learn-button transit-300" data-rate="СТАНДАРТ">
                                 Записаться
                             </div>
                         </div>
@@ -514,7 +514,7 @@
                     Запись на курс
                 </div>
                 <form class="pop-form" action="<? echo $path; ?>/rate-send.php" method="post">
-                    <input type="hidden" name="data-form" value="pop-form">
+                    <input type="hidden" name="data-form" value="::!spam!::" class="data-rate-name">
                     <div class="full-width quest-form-item" style="padding: 0 60px;">
                         <input type="text" placeholder="ФИО" name="p-name" class="full-width quest-in-form">
                     </div>

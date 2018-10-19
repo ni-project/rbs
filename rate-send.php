@@ -5,6 +5,7 @@ date_default_timezone_set('Asia/Yekaterinburg');
 $name = getParam('p-name');
 $phone = getParam('p-phone');
 $email = getParam('p-email');
+$detectRate = getParam('data-form');
 
 if (isset($name) && empty($name)) $errors['p-name'] = 'Не указан фио';
 if (isset($phone) && empty($phone)) $errors['p-phone'] = 'Не указан контактный телефон';
@@ -22,6 +23,8 @@ $body = date('d.m.Y')." | ".date('H:i')."<br><br>";
 $body .= "С сайта ".$_SERVER['SERVER_NAME']." отправлена форма."."<br><br>";
 
 $body .= "<b>Место отправления формы: страница тарифов brokerigerate</b><br><br>";
+
+$body .= "<b>Определение тарифа: ".$detectRate."</b><br><br>";
 
 $body .= "ФИО: ".$name."<br><br>";
 

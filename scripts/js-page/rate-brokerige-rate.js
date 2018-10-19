@@ -29,6 +29,10 @@ $(document).on('click', '.go-rate', function() {
 
 $(document).on('click', '.t-go-learn-button', function() {
 
+    var dName = $(this).data('rate');
+
+    $('.data-rate-name').val(dName);
+
     $('.zap-container').addClass('view');
 
 });
