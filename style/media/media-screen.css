@@ -66,9 +66,6 @@
     .start-block .sb-container .sb-container-cell .sb-bottom-container .mw-block { font-size: 16px; }
     .start-block .sb-container .sb-container-cell .sb-bottom-container .mw-block .sb-inline-name { margin-right: 12px; }
 
-    .img-prog-monitor { display: none; }
-    .img-prog-tablet-gorizont { display: inline-block; }
-
     .rate-container .go-learn-container .go-learn-items .col-xs-3 { width: 50%; }
     .rate-container .go-learn-container .go-learn-items .item-learn-share .inline-share { display: none; }
     .rate-container .go-learn-container .go-learn-line { display: none; }
@@ -95,7 +92,7 @@
     .super-like .like-bottom .lb-text-5 { font-size: 20px; }
     .wr-button { margin: -8px 20px 0 20px; }
 
-
+    .max-prog-container { padding: 0 30px; }
 
 
     /* RATE BROKERIGE */
@@ -108,6 +105,30 @@
 
     /**/
 
+    .start-block .sb-container .sb-container-cell .sb-bottom-container .mw-block .sb-inline-name { margin: 20px 10px 0 10px; }
+
+    .item-prog .item-inner .item-desc-cell .item-desc-right { width: 100%; padding: 0 30px 30px 30px; position: relative; }
+
+    .item-prog .item-inner .item-desc-cell { padding-right: 0; }
+
+    .item-prog .item-inner .item-desc-cell .item-desc-middle { padding: 30px 30px 30px 30px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
@@ -117,6 +138,69 @@
     .max-width { width: 100%; }
 
     /**/
+
+    .top-bar-container .right-container { display: none; }
+
+    .top-bar-container.not-bar { padding: 30px 0; }
+    .top-bar-container .tb-logo { margin-left: 20px; }
+
+    .start-block .sb-container .sb-container-cell .sb-bottom-container { position: relative; bottom: 0; text-align: left; padding-left: 16px; margin-top: 20px; }
+
+    .start-block .sb-container .sb-container-cell { padding-top: 150px; padding-bottom: 30px; }
+
+    .start-block .sb-container .sb-container-cell .sb-title { font-size: 32px; }
+    .start-block .sb-container .sb-container-cell .sb-sub-title { font-size: 21px; }
+
+    .start-block .sb-container .sb-container-cell .sb-btn-block .sb-button { font-size: 14px; }
+
+    .max-prog-container { margin: 40px auto 0 auto; padding: 0 14px; }
+    .rate-container .title-program { padding-top: 40px; font-size: 21px; color: #005077; font-weight: bold; }
+
+    .item-prog .item-inner .item-num-cell { vertical-align: top; width: 70px; position: relative; }
+
+    .item-prog .item-inner .item-num-cell .num-cell { font-size: 32px; line-height: 40px; }
+    .item-prog .item-inner .item-num-cell .num-text { font-size: 16px; }
+    .item-prog .item-inner .item-num-cell .num-icon { position: absolute; left: 0; bottom: 16px; }
+
+    .item-prog .item-inner .item-desc-cell .item-desc-middle .desc-title { font-size: 18px; }
+
+    .item-prog .item-inner .item-desc-cell .item-desc-middle { padding: 30px 20px 30px 20px; font-size: 16px; }
+
+    .item-prog .item-inner .item-desc-cell .item-desc-right { padding: 0 20px 20px 20px; }
+    .item-prog .item-inner .item-desc-cell .item-desc-right .dr-container .dr-cell .ttl-text { font-size: 18px; }
+    .item-prog .item-inner .item-desc-cell .item-desc-right .dr-container .dr-cell { font-size: 16px; }
+
+    .rate-container { background: #ffffff; }
+
+    .rate-container .go-learn-container .go-learn-title { font-size: 21px; font-weight: bold; }
+
+    .rate-container .go-learn-container .go-learn-items .col-xs-3 { display: block; width: 100%; float: none; }
+    .rate-container .go-learn-container { padding: 0 0 60px 0; box-shadow: none; }
+    .rate-container .go-learn-container .go-learn-items .item-learn-name { font-size: 18px; }
+
+    .rate-container .itog-title { margin-top: 10px; font-size: 21px; font-weight: bold; text-align: center; }
+
+    .rate-container .go-learn-container .go-learn-btn-block .go-learn-button { font-size: 14px; }
+
+    .rate-container .tariff .inline-design-img { display: none; }
+
+    .rate-container .itog-list-container .itog-items { width: 100%; }
+
+    .rate-container .itog-list-container .itog-items .itog-item { padding: 0 16px; }
+    .rate-container .itog-list-container .itog-items .itog-item .item-name { padding-bottom: 16px; font-size: 16px; border-bottom: 1px solid #154573; }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

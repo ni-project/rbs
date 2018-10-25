@@ -22,7 +22,7 @@ $body = date('d.m.Y')." | ".date('H:i')."<br><br>";
 
 $body .= "С сайта ".$_SERVER['SERVER_NAME']." отправлена форма."."<br><br>";
 
-$body .= "<b>Место отправления формы: страница тарифов brokerigerate</b><br><br>";
+$body .= "<b>Место отправления формы: страница тарифов brokerige</b><br><br>";
 
 $body .= "<b>Определение тарифа: ".$detectRate."</b><br><br>";
 

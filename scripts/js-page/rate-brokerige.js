@@ -9,9 +9,11 @@ $(document).ready(function() {
 
 function startBlock() {
 
-    var winX = document.documentElement.clientHeight;
+    var winX = document.documentElement.clientWidth;
+    var winY = document.documentElement.clientHeight;
 
-    $('.start-block').css('height', winX + 'px');
+    if ( winX > 750 ) { $('.start-block').css('height', winY + 'px'); } else { $('.start-block').css('height', 'auto'); }
+
 
 }
 

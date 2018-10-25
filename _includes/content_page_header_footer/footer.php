@@ -39,21 +39,14 @@
 
             </div>
 
-            <div style="display: inline-block; vertical-align: top; float: right; width: 600px;">
-
-                <div style="display: inline-block; vertical-align: top; margin-right: 80px; padding-top: 14px;">
-
-
-
-                </div>
+            <div style="display: inline-block; vertical-align: top; float: right;">
 
                 <div style="display: inline-block; vertical-align: top; padding-top: 10px; text-align: right; color: #cccccc;">
-
                     ООО "Бизнес-Школа недвижимости"<br>
                     ИНН/КПП 9710066718/771001001<br>
                     ОГРН 1187746755668<br>
-                    Россия, Московская область, г. Москва, ул. Тверская д.7, офис 401
-
+                    Россия, Московская область, г. Москва, ул. Тверская д.7, офис 401<br>
+                    Телефон: 8 800 551 94 59
                 </div>
 
             </div>
