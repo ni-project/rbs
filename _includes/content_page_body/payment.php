@@ -29,7 +29,7 @@
             </div>
 
             <div class="full-width rate-srok">
-                Сроки проведения: 1 октября - 30 декабря
+                Сроки проведения: 4 ноября - 30 декабря
             </div>
 
             <div class="full-width rate-sum">

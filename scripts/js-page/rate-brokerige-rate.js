@@ -5,14 +5,6 @@ $(document).ready(function() {
 
     startBlock();
 
-});
-
-function startBlock() {
-
-    var winX = document.documentElement.clientHeight;
-
-    $('.start-block').css('height', winX + 'px');
-
     var phonemask = '+7(999)999-99-99';
     $('input[type=tel]').mask(phonemask, {
         completed: function () {
@@ -20,11 +12,30 @@ function startBlock() {
         }
     });
 
+});
+
+function startBlock() {
+
+    var winX = document.documentElement.clientWidth;
+    var winY = document.documentElement.clientHeight;
+
+    if ( winX > 750 ) { $('.start-block').css('height', winY + 'px'); } else { $('.start-block').css('height', 'auto'); }
+
+
 }
 
 $(document).on('click', '.go-rate', function() {
     var ratePos = $('#g-price').offset().top - 200;
-    $('html, body').animate({ scrollTop : ratePos+'px' }, 1000);
+    var ratePosM = $('#g-price-m').offset().top - 40;
+    var winX = document.documentElement.clientWidth;
+
+    if ( winX < 1100 ) {
+
+        $('html, body').animate({scrollTop: ratePosM + 'px'}, 1000);
+
+    } else {
+        $('html, body').animate({scrollTop: ratePos + 'px'}, 1000);
+    }
 });
 
 $(document).on('click', '.t-go-learn-button', function() {

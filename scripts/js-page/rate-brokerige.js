@@ -5,6 +5,13 @@ $(document).ready(function() {
 
     startBlock();
 
+    var phonemask = '+7(999)999-99-99';
+    $('input[type=tel]').mask(phonemask, {
+        completed: function () {
+            $(this).parent().removeClass('error');
+        }
+    });
+
 });
 
 function startBlock() {

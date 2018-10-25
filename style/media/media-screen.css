@@ -218,7 +218,7 @@
 
     .wr-button { margin: 20px 0; padding: 12px 50px; font-size: 14px; }
 
-    .super-like .like-bottom .lb-text-5 { margin-top: 30px; padding: 0 16px; font-size: 14px; text-align: left; }
+    .super-like .like-bottom .lb-text-5 { margin-top: 30px; font-size: 14px; text-align: left; }
 
     .super-like .like-bottom .lb-text-4 .lb-1 { display: block; width: 100%; }
     .super-like .like-bottom .lb-text-4 .lb-2 { display: block; width: 100%; }
@@ -243,7 +243,8 @@
     .start-block .sb-container .sb-container-cell .sb-title { line-height: 40px; }
     .start-block .sb-container .sb-container-cell .sb-title span { display: block; }
 
-    .start-block .sb-container .sb-container-cell .sb-sub-title span { display: block; }
+    .start-block .sb-container .sb-container-cell .sb-sub-title .stt-1 { display: block; margin-bottom: -30px; }
+    .start-block .sb-container .sb-container-cell .sb-sub-title .stt-2 { display: block; }
 
     /**/
 
@@ -254,10 +255,22 @@
     .start-block .sb-container .sb-container-cell .sb-bottom-container .mw-block .sb-inline-name { display: block; width: 100%; margin: 20px 0 0 0; }
     .start-block .sb-container .sb-container-cell .sb-bottom-container .mw-block .sb-inline-name span { display: block; width: 100%; padding-left: 32px; }
 
+    .rate-container .itog-title { padding: 0 20px; }
+
+    .tariff-item-m { display: block; width: 100%; }
+    .tar-list { width: 100%; }
+    .tariff-mobile-t { padding: 0 10px; }
+
+    .super-like .like-bottom { padding: 0 14px 30px 14px; }
 
 
 
+}
 
+@media screen and (max-width: 350px) {
 
+    .f-footer .f-left .f-logo-link { display: block; width: 100%; }
+
+    .f-footer .f-left .f-content { display: block; width: 100%; float: none; text-align: left; margin-top: 20px; }
 
 }

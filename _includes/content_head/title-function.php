@@ -11,6 +11,7 @@ function setTitle($name) {
             $title = 'Прайс';
             if ( isset($_GET['thankyou']) ) { $title = 'Спасибо'; }
             if ( $_GET['name'] == 'brokerige' ) { $title = 'PRO Бизнес на аренде: ОНЛАНЙ-курс по брокериджу коммерческой недвижимости'; }
+            if ( $_GET['name'] == 'brokerigerate' ) { $title = 'PRO Бизнес на аренде: ОНЛАНЙ-курс по брокериджу коммерческой недвижимости'; }
             break;
         default:
             $title = 'RBS';
