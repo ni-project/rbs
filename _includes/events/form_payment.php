@@ -5,6 +5,7 @@ date_default_timezone_set('Europe/Moscow');
 $name = getParam('name');
 $email = getParam('email');
 $phone = getParam('phone');
+$elem = getParam('visitor_uid');//amoCRM
 
 if (isset($name) && empty($name)) $errors['name'] = 'Не указаны инициалы';
 if (isset ($email) && empty($email)) $errors['email'] = 'Не указан адрес электронной почты';
@@ -38,6 +39,7 @@ $subject = $_SERVER['SERVER_NAME'] . " заявка на выписку счет
 
 $a = mail($email_address, $subject, $body, $header);
 
+require_once('sendpay.php'); //amoCRM
 echo json_encode(array('res'=>$a?'ok':'errors', array('')));
 
 function getParam($name, $def = ''){return isset($_POST[$name]) ? $_POST[$name] : $def;}
