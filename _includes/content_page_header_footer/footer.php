@@ -1,13 +1,13 @@
 
-    <div class="full-width" style="background: #202020; padding: 50px 0 50px 0; position: relative;">
+    <div class="full-width f-footer">
 
         <div class="max-width">
 
-            <div style="display: inline-block; vertical-align: top; float: left;">
+            <div class="f-left">
 
-                <div style="display: inline-block; vertical-align: top;">
+                <div class="f-logo-link">
 
-                    <div style="margin-bottom: 40px;">
+                    <div class="log-foot">
                         <img src="<? echo $path; ?>/images/footer/logo-footer.png" alt="" draggable="false">
                     </div>
 
@@ -23,10 +23,10 @@
 
                 </div>
 
-                <div style="display: inline-block; vertical-align: top; margin-left: 120px; padding-top: 10px;">
+                <div class="f-content">
 
                     <div class="full-width" style="margin-bottom: 20px; font-size: 20px; color: #ffffff;">
-                        <a href="<? echo $path; ?>/legal/1" style="font-family: 'Circe-Light', sans-serif; font-size: 20px; color: #ffffff;">Правовая информация</a>
+                        <a href="<? echo $path; ?>/legal/1" class="f-prav-inf">Правовая информация</a>
                     </div>
 
                     <img src="<? echo $path; ?>/images/footer/mailto-icon.png" alt="" draggable="false"><a href="mailto:sale@rbs-24.ru" style="margin-left: 12px; font-size: 16px; color: #ffffff;">sale@rbs-24.ru</a>
@@ -39,9 +39,9 @@
 
             </div>
 
-            <div style="display: inline-block; vertical-align: top; float: right;">
+            <div class="f-right">
 
-                <div style="display: inline-block; vertical-align: top; padding-top: 10px; text-align: right; color: #cccccc;">
+                <div class="fr-cont">
                     ООО "Бизнес-Школа недвижимости"<br>
                     ИНН/КПП 9710066718/771001001<br>
                     ОГРН 1187746755668<br>
@@ -57,7 +57,7 @@
 
     </div>
 
-    <div class="full-width" style="background: #000000; padding: 20px 0 20px 0; position: relative;">
+    <div class="full-width b-footer">
 
         <div class="max-width" style="font-size: 16px; color: #ffffff;">
 

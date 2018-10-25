@@ -94,6 +94,11 @@
 
     .max-prog-container { padding: 0 30px; }
 
+    .rate-container .itog-list-container { overflow-x: hidden; }
+
+    .rate-container .tariff { display: none; }
+    .tariff-mobile-t { display: block; }
+    .tariff-name-m { display: block; }
 
     /* RATE BROKERIGE */
 
@@ -113,18 +118,20 @@
 
     .item-prog .item-inner .item-desc-cell .item-desc-middle { padding: 30px 30px 30px 30px; }
 
+    .rate-container .go-learn-container .go-learn-items .col-xs-3 { height: 290px; }
 
+    /**/
+    .tariff-tablet { display: block; }
+    .tariff-mobile-t { display: none; }
+    /**/
 
+    .close-pop { right: 0; top: -30px; }
+    .pop-form-title { font-size: 30px; }
+    .quest-form-item .quest-in-form { font-size: 16px; }
+    .quest-btn { padding: 16px 72px; }
+    .zap-container { padding: 0 16px; }
 
-
-
-
-
-
-
-
-
-
+    .quest-form-item { padding: 0 30px; }
 
 
 
@@ -189,14 +196,63 @@
     .rate-container .itog-list-container .itog-items .itog-item { padding: 0 16px; }
     .rate-container .itog-list-container .itog-items .itog-item .item-name { padding-bottom: 16px; font-size: 16px; border-bottom: 1px solid #154573; }
 
+    /**/
+    .tariff-tablet { display: none; }
+    .tariff-mobile-t { display: block; }
+    /**/
+
+    .tariff-name-m { font-size: 21px; }
+
+    .super-like .like-bottom { margin-top: 40px; padding-bottom: 30px; }
+
+    .super-like .like-substrate .ls-content .ls-text-1 { font-size: 24px; }
+    .super-like .like-substrate .ls-content .ls-text-2 { font-size: 24px; padding: 0 20px; }
+    .super-like .like-substrate .ls-content .ls-text-3 { font-size: 24px; }
+    .super-like .like-substrate .ls-content .ls-text-4 { font-size: 24px; }
+    .super-like .like-time-container { display: none; }
+
+    .super-like .like-bottom .lb-text-1 { font-size: 24px; line-height: 32px; }
+    .super-like .like-bottom .lb-text-2 { font-size: 24px; line-height: 32px; margin-top: 0; }
+    .super-like .like-bottom .lb-text-3 { font-size: 24px; line-height: 32px; }
+    .super-like .like-bottom .lb-text-4 { font-size: 24px; line-height: 32px; }
+
+    .wr-button { margin: 20px 0; padding: 12px 50px; font-size: 14px; }
+
+    .super-like .like-bottom .lb-text-5 { margin-top: 30px; padding: 0 16px; font-size: 14px; text-align: left; }
+
+    .super-like .like-bottom .lb-text-4 .lb-1 { display: block; width: 100%; }
+    .super-like .like-bottom .lb-text-4 .lb-2 { display: block; width: 100%; }
 
 
+    /**/
 
+    .b-footer { padding: 20px 16px 20px 16px; }
 
+    .f-footer { padding: 40px 16px 30px 16px; }
 
+    .f-footer .f-right { display: block; width: 100%; }
+    .f-footer .f-right .fr-cont { padding-top: 30px; text-align: left; }
 
+    .f-footer .f-left .f-content { margin-left: 0; float: right; text-align: right; }
+    .f-footer .f-left { display: block; width: 100%; float: none; }
 
+    .f-prav-inf { font-size: 16px; }
 
+    /**/
+
+    .start-block .sb-container .sb-container-cell .sb-title { line-height: 40px; }
+    .start-block .sb-container .sb-container-cell .sb-title span { display: block; }
+
+    .start-block .sb-container .sb-container-cell .sb-sub-title span { display: block; }
+
+    /**/
+
+    .rate-container .go-learn-container .go-learn-items { display: none; }
+    .go-learn-items-m { display: block; }
+
+    .start-block .sb-container .sb-container-cell .sb-bottom-container { margin-top: 30px; }
+    .start-block .sb-container .sb-container-cell .sb-bottom-container .mw-block .sb-inline-name { display: block; width: 100%; margin: 20px 0 0 0; }
+    .start-block .sb-container .sb-container-cell .sb-bottom-container .mw-block .sb-inline-name span { display: block; width: 100%; padding-left: 32px; }
 
 
 

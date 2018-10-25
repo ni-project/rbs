@@ -69,9 +69,20 @@ a:focus, input:focus, textarea:focus, select:focus, button:focus { outline: none
 
 /**/
 
+.f-footer { background: #202020; padding: 50px 0 50px 0; position: relative; }
+.b-footer { background: #000000; padding: 20px 0 20px 0; position: relative; }
 
+.f-footer .f-left { display: inline-block; vertical-align: top; float: left; }
+.f-footer .f-right { display: inline-block; vertical-align: top; float: right; }
+.f-footer .f-right .fr-cont { display: inline-block; vertical-align: top; padding-top: 10px; text-align: right; color: #cccccc; }
 
+.f-footer .f-left .f-logo-link { display: inline-block; vertical-align: top; }
 
+.f-footer .f-left .f-content { display: inline-block; vertical-align: top; margin-left: 120px; padding-top: 10px; }
+
+.f-footer .f-left .f-logo-link .log-foot { margin-bottom: 40px; }
+
+.f-prav-inf { font-family: 'Circe-Light', sans-serif; font-size: 20px; color: #ffffff; }
 
 
 
