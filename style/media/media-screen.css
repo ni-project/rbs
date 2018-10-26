@@ -102,6 +102,15 @@
 
     /* RATE BROKERIGE */
 
+    .payment-content .max-content .cell-decoration { display: none; }
+
+    .payment-bar .p-logo { margin-left: 40px; }
+
+    .payment-content .max-content { max-width: 100%; padding: 0 40px; }
+    .payment-bar { padding: 40px 40px 40px 0; }
+
+
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -262,6 +271,42 @@
     .tariff-mobile-t { padding: 0 10px; }
 
     .super-like .like-bottom { padding: 0 14px 30px 14px; }
+
+    .f-footer .f-left .f-logo-link .log-foot img { width: 120px; }
+
+    /**/
+
+    .payment-content { margin-bottom: 40px; }
+
+    .payment-bar .p-logo { margin-left: 20px; }
+    .payment-bar { padding: 40px 20px 20px 0; }
+
+    .payment-content .max-content { padding: 0 16px; }
+
+    .payment-content .max-content .content-cell .rate-title { font-size: 24px; }
+
+    .payment-content .max-content .content-cell .rate-kurs-name { font-size: 18px; }
+
+    .payment-content .max-content .content-cell .rate-srok { font-size: 18px; }
+
+    .payment-content .max-content .content-cell .rate-sum { font-size: 22px; }
+
+    .payment-content .max-content .content-cell .old-price { font-size: 16px; }
+
+    .payment-content .max-content .content-cell .payment-btns { padding: 0 20px; text-align: center; }
+
+    .payment-content .max-content .content-cell .payment-btns .pay-button { width: 100%; margin-right: 0; margin-top: 20px; }
+    .payment-content .max-content .content-cell .payment-btns .pay-button-zamor { width: 100%; margin-right: 0; margin-top: 20px; }
+    .payment-content .max-content .content-cell .oplata-text { margin-top: 40px; }
+
+    .pay-form-container .pay-form-block .pay-form-cell { padding: 30px 16px; }
+
+    .pay-pop-close { right: 0; top: -30px; }
+
+    .pay-pop-button { margin-right: 0; }
+
+    .pay-form-container .pay-form-block .pay-form-cell .pay-form-win .pay-form-title { padding: 0 30px; }
+    .pay-form-container .pay-form-block .pay-form-cell .pay-form-win .pay-form-content { padding: 0 30px; }
 
 
 

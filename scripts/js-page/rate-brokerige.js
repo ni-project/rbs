@@ -38,7 +38,8 @@ $(document).on('click', '.go-rate', function() {
     }
 });
 
-$(document).on('click', '.t-go-learn-button', function() {
+
+$(document).on('click', '.mtg-button', function() {
 
     var dName = $(this).data('rate');
 
@@ -48,6 +49,8 @@ $(document).on('click', '.t-go-learn-button', function() {
 
 });
 $(document).on('click', '.close-pop', function() { $('.zap-container').removeClass('view'); });
+
+
 
 $('.pop-form').ajaxForm({
     success: function (html, status, xhr, myForm) {
@@ -62,7 +65,7 @@ $('.pop-form').ajaxForm({
         } else if (data.res && data.res == 'ok') {
             myForm.resetForm();
 
-            /*yaCounter50236393.reachGoal('SEND_FORM_OK');*/
+
             $('.ajax-wait').addClass('start');
             $('.zap-container').removeClass('view');
             setTimeout(function() {

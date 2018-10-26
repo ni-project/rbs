@@ -11,7 +11,11 @@
 
 <meta name="format-detection" content="telephone=no">
 
-<title><? echo setTitle($_GET['page']); ?></title>
+<title>
+
+    <? echo setTitle($_GET['page']); ?>
+
+</title>
 
 <link href="<? echo $path; ?>/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 
