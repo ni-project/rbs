@@ -1,15 +1,15 @@
 
-<div class="full-width" style="padding-top: 170px; background: #F7F7F7;">
+<div class="full-width legal-container">
 
     <div class="max-width">
 
-        <div style="display: block; width: 400px; float: left; padding-right: 60px;">
+        <div class="link-block">
 
-            <div class="full-width" style="font-size: 28px;">
+            <div class="full-width link-block-title">
                 Правовая информация
             </div>
 
-            <div class="full-width" style="margin-top: 30px; font-size: 20px;">
+            <div class="full-width link-block-sub-title">
                 Общие условия
             </div>
 
@@ -17,7 +17,7 @@
 
         </div>
 
-        <div style="margin-left: 400px; background: #ffffff; margin-bottom: 30px; padding: 40px;">
+        <div class="legal-content">
 
             <div class="full-width" style="margin-bottom: 30px; font-size: 20px; font-weight: bold; text-align: center;">
                 Согласие на обработку персональных данных Пользователя.

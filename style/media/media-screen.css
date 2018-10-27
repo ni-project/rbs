@@ -54,7 +54,12 @@
 
     .fac-slider, .choose-fac-slider { width: 900px; }
 
+    /**/
 
+    .top-bar-container.default .tb-logo { margin-left: 40px; }
+
+    .legal-container .link-block { width: 360px; padding-right: 30px; }
+    .legal-container .legal-content { margin-left: 360px; }
 
 
 
@@ -142,10 +147,22 @@
 
     .quest-form-item { padding: 0 30px; }
 
+    /**/
 
+    .legal-container .link-block { width: 100%; padding-right: 0; float: none; }
+    .legal-container .legal-content { margin-left: 0; }
 
+    .legal-container { padding-top: 140px; }
 
+    /**/
 
+    .b-footer { padding: 20px 16px 20px 16px; }
+    .f-footer { padding: 40px 16px 30px 16px; }
+    .f-footer .f-right .fr-cont { padding-top: 30px; text-align: left; }
+    .f-footer .f-left { display: block; width: 100%; float: none; }
+    .f-prav-inf { font-size: 16px; }
+    .f-footer .f-right { display: block; width: 100%; }
+    .f-footer .f-left .f-content { margin-left: 0; float: right; text-align: right; }
 
 }
 
@@ -235,17 +252,15 @@
 
     /**/
 
-    .b-footer { padding: 20px 16px 20px 16px; }
+    .legal-container .link-block { padding: 0 16px; }
 
-    .f-footer { padding: 40px 16px 30px 16px; }
+    .legal-container .legal-content { padding: 30px 20px 20px 20px; margin-top: 40px; margin-bottom: 0; }
 
-    .f-footer .f-right { display: block; width: 100%; }
-    .f-footer .f-right .fr-cont { padding-top: 30px; text-align: left; }
+    .a-legal-lnk { font-size: 16px; }
 
-    .f-footer .f-left .f-content { margin-left: 0; float: right; text-align: right; }
-    .f-footer .f-left { display: block; width: 100%; float: none; }
+    .legal-container .link-block .link-block-sub-title { font-size: 18px; }
 
-    .f-prav-inf { font-size: 16px; }
+    .legal-container .link-block .link-block-title { font-size: 24px; }
 
     /**/
 

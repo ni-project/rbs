@@ -84,6 +84,32 @@ a:focus, input:focus, textarea:focus, select:focus, button:focus { outline: none
 
 .f-prav-inf { font-family: 'Circe-Light', sans-serif; font-size: 20px; color: #ffffff; }
 
+/**/
+
+.legal-container { padding-top: 170px; background: #F7F7F7; }
+
+.legal-container .link-block { display: block; width: 400px; float: left; padding-right: 60px; }
+
+.legal-container .link-block .link-block-title { font-size: 28px; }
+
+.legal-container .link-block .link-block-sub-title { margin-top: 30px; font-size: 20px; }
+
+.a-legal-lnk { margin: 20px 0; font-size: 18px; }
+
+.legal-container .legal-content { margin-left: 400px; background: #ffffff; margin-bottom: 30px; padding: 40px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
