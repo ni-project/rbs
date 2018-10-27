@@ -23,6 +23,36 @@ $thank_page = $_GET['thankyou'];
 <div id="sDetect" style="display: inline-block; /*display: none !important;*/ vertical-align: top; padding: 5px 10px; background: #990000; font-size: 11px; color: #ffffff; position: fixed; right: 0; bottom: 0; z-index: 3000;"></div>
 -->
 
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter50890856 = new Ya.Metrika2({
+                    id:50890856,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/50890856" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
 <header>
 
     <? include '_includes/content_page_header_footer/header.php'; ?>
