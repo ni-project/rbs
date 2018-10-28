@@ -323,6 +323,9 @@
     .pay-form-container .pay-form-block .pay-form-cell .pay-form-win .pay-form-title { padding: 0 30px; }
     .pay-form-container .pay-form-block .pay-form-cell .pay-form-win .pay-form-content { padding: 0 30px; }
 
+    /**/
+
+    .p-btn-cell { display: block; width: 100%; margin-right: 0; }
 
 
 }
