@@ -24,7 +24,7 @@
                 <div class="date-cell">
                     <img src="<? echo $path; ?>/images/thankyou/1.png" alt="" draggable="false" class="img-cell">
                     <div class="full-width date-dsk">
-                        Дата: <b>01 октября – 30 декабря</b>
+                        Дата: <b>04 ноября – 30 декабря</b>
                     </div>
                     <div class="full-width date-dsk">
                         Преподаватель: <b>Иван Чернышов</b>
