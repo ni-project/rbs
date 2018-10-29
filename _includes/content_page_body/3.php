@@ -19,6 +19,12 @@
 
         <div class="legal-content">
 
+            <div class="full-width d-container">
+                <a href="<? echo $path; ?>/legal/doc/rbs_dogovor_okazaniya_informacionno_konsultacionnih_uslug.pdf" download class="d-link transit-300">
+                    Скачать <img src="<? echo $path; ?>/images/legal/d-icon.png" alt="">
+                </a>
+            </div>
+
             <div class="full-width" style="margin-bottom: 30px; font-size: 20px; font-weight: bold; text-align: center;">
                 Договор<br>оказания информационно-консультационных услуг
             </div>
@@ -192,6 +198,12 @@
 
                 </div>
 
+            </div>
+
+            <div class="full-width d-container">
+                <a href="<? echo $path; ?>/legal/doc/rbs_dogovor_okazaniya_informacionno_konsultacionnih_uslug.pdf" download class="d-link transit-300">
+                    Скачать <img src="<? echo $path; ?>/images/legal/d-icon.png" alt="">
+                </a>
             </div>
 
         </div>

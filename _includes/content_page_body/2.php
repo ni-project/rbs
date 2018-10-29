@@ -19,6 +19,12 @@
 
         <div class="legal-content">
 
+            <div class="full-width d-container">
+                <a href="<? echo $path; ?>/legal/doc/rbs_pravila_vozvrata_denegnyh_sredstv.pdf" download class="d-link transit-300">
+                    Скачать <img src="<? echo $path; ?>/images/legal/d-icon.png" alt="">
+                </a>
+            </div>
+
             <div class="full-width" style="margin-bottom: 30px; font-size: 20px; font-weight: bold; text-align: center;">
                 Правила возврата денежных средств
             </div>
@@ -81,6 +87,12 @@
                 <p>3.11. Порядок направления, получения и признания юридической силы уведомлений о расторжении, иных документов, связанных с расторжением Договора, возвратом оплаченной стоимости Услуг, регулируется Договором.</p>
                 <p>3.12. Настоящие правила действуют в течение всего периода времени их размещения на Сайте Исполнителя. Исполнитель имеет право в любой момент внести изменения в условия Правил. В случае внесения изменений в Правила, такие изменения вступают в силу с момента опубликования на Сайте, если иной срок вступления в силу не установлен при опубликовании изменений Правил.</p>
 
+            </div>
+
+            <div class="full-width d-container">
+                <a href="<? echo $path; ?>/legal/doc/rbs_pravila_vozvrata_denegnyh_sredstv.pdf" download class="d-link transit-300">
+                    Скачать <img src="<? echo $path; ?>/images/legal/d-icon.png" alt="">
+                </a>
             </div>
 
         </div>

@@ -19,6 +19,12 @@
 
         <div class="legal-content">
 
+            <div class="full-width d-container">
+                <a href="<? echo $path; ?>/legal/doc/rbs_soglasie_na_obrabotku_personalnih_dannih.pdf" download class="d-link transit-300">
+                    Скачать <img src="<? echo $path; ?>/images/legal/d-icon.png" alt="">
+                </a>
+            </div>
+
             <div class="full-width" style="margin-bottom: 30px; font-size: 20px; font-weight: bold; text-align: center;">
                 Согласие на обработку персональных данных Пользователя.
             </div>
@@ -59,6 +65,12 @@
                     - Пользователь вправе в любое время осуществить отказ от приёма писем ООО «Бизнес-школа недвижимости», распространение которых осуществляется регулярной рассылкой. Осуществить данную процедуру поможет специальная ссылка, которую Пользователь может увидеть при окончании любого письма ООО «Бизнес-школа недвижимости» или написать на электронную почту: sale@rbs-24.ru.
                 </p>
 
+            </div>
+
+            <div class="full-width d-container">
+                <a href="<? echo $path; ?>/legal/doc/rbs_soglasie_na_obrabotku_personalnih_dannih.pdf" download class="d-link transit-300">
+                    Скачать <img src="<? echo $path; ?>/images/legal/d-icon.png" alt="">
+                </a>
             </div>
 
         </div>

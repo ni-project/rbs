@@ -96,13 +96,14 @@ a:focus, input:focus, textarea:focus, select:focus, button:focus { outline: none
 
 .a-legal-lnk { margin: 20px 0; font-size: 18px; }
 
-.legal-container .legal-content { margin-left: 400px; background: #ffffff; margin-bottom: 30px; padding: 40px; }
+.legal-container .legal-content { margin-left: 400px; background: #ffffff; margin-bottom: 30px; padding: 20px 40px 20px 40px; }
 
+.d-container { margin: 20px 0; text-align: right; }
 
+.d-container .d-link { display: inline-block; vertical-align: top; margin: 20px 0; padding: 4px 20px; background: #cccccc; font-size: 14px; color: #5d5d5d; border-radius: 30px; border: 1px solid #999999; text-align: right; text-decoration: none !important; }
+.d-container .d-link:hover { background: #ababab; }
 
-
-
-
+.d-container .d-link img { width: 18px; margin-left: 4px; }
 
 
 
