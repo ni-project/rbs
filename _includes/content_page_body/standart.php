@@ -107,7 +107,7 @@
 
 
                 <div class="p-btn-cell">
-                    <div class="pay-button pay-form-score transit-300">Выписать счет</div>
+                    <div class="pay-button pay-form-score transit-300">Оставить заявку</div>
                 </div>
 
 

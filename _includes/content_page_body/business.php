@@ -103,7 +103,7 @@
                 </div>
 
                 <div class="p-btn-cell">
-                    <div class="pay-button pay-form-score transit-300">Выписать счет</div>
+                    <div class="pay-button pay-form-score transit-300">Оставить заявку</div>
                 </div>
 
                 <!--   <div class="pay-button-zamor transit-300">Заморозить цену</div> -->
@@ -195,7 +195,7 @@
 
                 <div class="full-width pay-form-title">
 
-                    Оставьте свои контактные данные для выставления счёта
+                    Оставьте свои контакты и мы свяжемся с вами
 
                 </div>
 

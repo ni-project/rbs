@@ -8,7 +8,7 @@
         <div class="thank-cell">
 
             <div class="full-width line-title-1">
-                Благодарим Вас за заявку на курс
+                Спасибо за контакты
             </div>
 
             <div class="full-width line-title-1">
@@ -16,7 +16,7 @@
             </div>
 
             <div class="full-width line-title-2">
-                Ближайшее время менеджер свяжется с вами для выставления счёта.
+                Ближайшее время менеджер свяжется с вами
             </div>
 
             <div class="full-width date-block">

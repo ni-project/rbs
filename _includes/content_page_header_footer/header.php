@@ -17,7 +17,7 @@ if ( $content_name == 'brokerige' || $content_name == 'brokerigerate' ) {
     </a>
     <div class="right-container">
         <div class="tb-item">
-            <a href="https://www.ispring.ru/login.html">Войти</a>
+            <a href="https://getcourse.ru/cms/system/login">Войти</a>
         </div>
     </div>
 </div>
